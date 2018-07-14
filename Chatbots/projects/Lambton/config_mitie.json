@@ -1,0 +1,7 @@
+{
+  "name": "Lambton",
+  "pipeline":"nlp_mitie",
+  "path":"projects/Lambton/models/nlu/current",
+  "data":"projects/Lambton/intents/lambton_data.json",
+  "model":"/Users/leandroarruda/GitHub/nuRobot/Chatbots/data/total_word_feature_extractor.dat"
+}

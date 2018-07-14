@@ -1,0 +1,1 @@
+python -m rasa_core.server -d /Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/Lambton/models/dialogue -u /Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/Lambton/models/nlu/default/current -p 5004 --debug -o out.log --cors

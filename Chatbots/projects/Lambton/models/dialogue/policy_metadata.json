@@ -1,0 +1,35 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "program",
+        "username",
+        "location"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_restart": {
+      "slots": []
+    },
+    "action_weather": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_inform_schedule": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.9.6",
+  "max_histories": [
+    3,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "policy.nuRobotPolicy"
+  ]
+}

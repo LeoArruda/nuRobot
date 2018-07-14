@@ -1,0 +1,12 @@
+## Generated Story -4789303482939589405
+* inform_name
+    - utter_greet
+    - utter_how_can_help
+* ask_weather_location{"location": "Toronto"}
+    - slot{"location": "Toronto"}
+    - action_weather
+    - slot{"location": "Toronto"}
+* confirmation
+* goodbye
+    - export
+

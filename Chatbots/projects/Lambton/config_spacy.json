@@ -1,0 +1,6 @@
+{
+  "name": "Lambton",
+  "pipeline":"tensorflow_embedding",
+  "path":"projects/Lambton/models/nlu/current",
+  "data":"projects/Lambton/intents/lambton_data.json"
+}
