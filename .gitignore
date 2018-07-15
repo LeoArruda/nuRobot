@@ -1,0 +1,4 @@
+mongoDB/
+Chatbots/data/
+Chatbots/.pytest_cache/
+Chatbots/__pycache__/
