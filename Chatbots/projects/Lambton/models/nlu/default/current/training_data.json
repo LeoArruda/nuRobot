@@ -1294,6 +1294,14 @@
         "text": "Who is eligible for co-op?"
       },
       {
+        "intent": "ask_coop_eligibility",
+        "text": "What if I got less than 2.8 in 3rd semester, am I still eligible for coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "How can I know that am I eligible for coop or not? "
+      },
+      {
         "intent": "ask_fee_for_applied_project",
         "text": "how much I have to pay for applied project?"
       },
@@ -1304,10 +1312,6 @@
       {
         "intent": "ask_fee_for_applied_project",
         "text": "Do I have fees to pay for applied project?"
-      },
-      {
-        "intent": "ask_coop_eligibility",
-        "text": "What if I got less than 2.8 in 3rd semester, am I still eligible for coop?"
       },
       {
         "intent": "howto_borrow_book_library",
@@ -1338,6 +1342,42 @@
         "text": "Is this book available in the library?"
       },
       {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services are included in guard-me insurance?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me what guard-me covers"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me the coverage of guard-me"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What guard-me covers?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not covered by guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
         "intent": "ask_guardme_in_break_term",
         "text": "Does my health insurance cover the break period?"
       },
@@ -1348,6 +1388,42 @@
       {
         "intent": "ask_guardme_in_break_term",
         "text": "Why does not health insurance cover vacations?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my guardian insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my parents insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my guardian in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my daughter in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my son in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include dependents in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I get my money back from guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim my insurance?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim a insurance reimbursement?"
       },
       {
         "intent": "ask_schedule",

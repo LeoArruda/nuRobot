@@ -1,2 +1,0 @@
-model_checkpoint_path: "/Users/leandroarruda/GitHub/nuRobot/Chatbots/../Chatbots/projects/Lambton/models/nlu/default/Lambton20180626-150938/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/Users/leandroarruda/GitHub/nuRobot/Chatbots/../Chatbots/projects/Lambton/models/nlu/default/Lambton20180626-150938/intent_classifier_tensorflow_embedding.ckpt"
