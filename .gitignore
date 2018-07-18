@@ -1,4 +1,4 @@
 mongoDB/
-Chatbots/data/
+Chatbots/data/*.dat
 Chatbots/.pytest_cache/
 Chatbots/__pycache__/
