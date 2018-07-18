@@ -34,10 +34,10 @@ pykwalify==1.6.0
 coloredlogs==7.3
 ruamel.yaml==0.15.34
 flask==0.12
-rasa_nlu
+rasa_nlu==0.12.3
 
 ###additional
 pypandoc
 slackclient
-rasa_core
+rasa_core==0.10.1
 git+https://github.com/apixu/apixu-python.git
