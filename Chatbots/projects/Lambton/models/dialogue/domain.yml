@@ -254,4 +254,3 @@ templates:
   - text: thank you
   utter_you_are_wrong:
   - text: I will correct it, i will learn from you
-topics: []

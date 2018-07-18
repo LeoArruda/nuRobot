@@ -80,3 +80,6 @@
 2018-07-18T17:01:21.269-0400 I NETWORK  [conn19] end connection 127.0.0.1:64248 (2 connections now open)
 2018-07-18T17:01:21.269-0400 I NETWORK  [conn18] end connection 127.0.0.1:64232 (1 connection now open)
 2018-07-18T17:01:21.814-0400 I NETWORK  [conn17] end connection 127.0.0.1:64230 (0 connections now open)
+2018-07-18T19:09:58.578-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:65170 #20 (1 connection now open)
+2018-07-18T19:09:58.582-0400 I NETWORK  [conn20] received client metadata from 127.0.0.1:65170 conn20: { driver: { name: "PyMongo", version: "3.7.0" }, os: { type: "Darwin", name: "Darwin", architecture: "x86_64", version: "10.13.5" }, platform: "CPython 3.6.5.final.0" }
+2018-07-18T19:10:21.801-0400 I NETWORK  [conn20] end connection 127.0.0.1:65170 (0 connections now open)
