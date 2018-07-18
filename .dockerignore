@@ -1,0 +1,4 @@
+node-modules
+__pycache__
+*.pyc
+Chatbots/data/total_word_feature_extractor.dat
