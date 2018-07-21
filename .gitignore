@@ -2,3 +2,4 @@ mongoDB/
 Chatbots/data/*.dat
 Chatbots/.pytest_cache/
 Chatbots/__pycache__/
+nohup.out

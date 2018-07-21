@@ -1,0 +1,267 @@
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_nuRobotPolicy
+Predicted next action 'action_listen' with prob 0.87.
+Action 'action_listen' ended with events '[]'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'Hows the weather in Toronto?' with intent '{'name': 'Hows the weather in Toronto?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_Hows the weather in Toronto?': 1.0}]
+There is no memorised next action
+Feature 'intent_Hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'hello there' with intent '{'name': 'hello there', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_hello there': 1.0}]
+There is no memorised next action
+Feature 'intent_hello there' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'hows the weather in Toronto?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_hello there': 1.0}, {'intent_hows the weather in Toronto?': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hello there' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'hows the weather in Toronto?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_hows the weather in Toronto?': 1.0}]
+There is no memorised next action
+Feature 'intent_hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'hows the weather in Toronto?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_hows the weather in Toronto?': 1.0}, {'prev_action_listen': 1.0, 'intent_hows the weather in Toronto?': 1.0}]
+There is no memorised next action
+Feature 'intent_hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'hows the weather in Toronto?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	program: None
+	username: None
+Current tracker state [None, {}, {'intent_hows the weather in Toronto?': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hows the weather in Toronto?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+Failed to load any agent model. Running Rasa Core server with out loaded model now. Domain specification has changed. You MUST retrain the policy. Detected mismatch in domain specification. The following states have been 
+	 - removed: prev_action_default_fallback 
+	 - added:    
+Started http server on port 5000
+Up and running
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-/Users/leandroarruda/GitHub/nuRobot-new/Chatbots/data/total_word_feature_extractor.dat'.
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'ask_weather_location', 'confidence': 0.5242109411595836}' and entities '[{'entity': 'location', 'value': 'Toronto', 'start': 20, 'end': 27, 'confidence': None, 'extractor': 'ner_mitie', 'processors': ['ner_synonyms']}]'
+Logged UserUtterance - tracker now has 3 events
+Current slot values: 
+	location: Toronto
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'entity_location': 1.0, 'slot_location_0': 1.0, 'intent_ask_weather_location': 1.0}]
+There is a memorised next action '2'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_weather' with prob 1.00.
+Recreating tracker for id 'default'
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'hows the weather in Toronto?' with intent '{'name': 'ask_weather_location', 'confidence': 0.5242109411595836}' and entities '[{'entity': 'location', 'value': 'Toronto', 'start': 20, 'end': 27, 'confidence': None, 'extractor': 'ner_mitie', 'processors': ['ner_synonyms']}]'
+Logged UserUtterance - tracker now has 5 events
+Current slot values: 
+	location: Toronto
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'entity_location': 1.0, 'slot_location_0': 1.0, 'intent_ask_weather_location': 1.0}]
+There is a memorised next action '2'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_weather' with prob 1.00.
+Starting new HTTP connection (1): api.apixu.com:80
+http://api.apixu.com:80 "GET /v1/current.json?key=1499cd68946d4387b6c175525181806&q=Toronto HTTP/1.1" 200 392
+Bot utterance 'BotUttered(text: It is currently Partly cloudy in Toronto/Canada at the moment. 
+The temperature is 22.0 oC feels like 24.6 oC.
+ The humidity is 65% and the wind speed is 11.2 kph., data: null)'
+Action 'action_weather' ended with events '['SlotSet(key: location, value: Toronto)']'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'entity_location': 1.0, 'slot_location_0': 1.0, 'intent_ask_weather_location': 1.0}, {'entity_location': 1.0, 'slot_location_0': 1.0, 'intent_ask_weather_location': 1.0, 'prev_action_weather': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Current topic: None
+Failed to load any agent model. Running Rasa Core server with out loaded model now. Action 'actions.ActionWeather' doesn't correspond to a template / action. Remember to prefix actions that should utter a template with `utter_`. Error: No module named 'actions'
+Started http server on port 5000
+Up and running
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-/Users/leandroarruda/GitHub/nuRobot-new/Chatbots/data/total_word_feature_extractor.dat'.
+Started http server on port 5000
+Up and running
+Creating a new tracker for id 'default'.
+/Users/leandroarruda/anaconda3/envs/nuRobot/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'Hows the weather in Mississauga?' with intent '{'name': 'ask_weather_location', 'confidence': 0.6961553735712689}' and entities '[{'entity': 'location', 'value': 'Mississauga', 'start': 20, 'end': 31, 'confidence': None, 'extractor': 'ner_mitie'}]'
+Logged UserUtterance - tracker now has 3 events
+Current slot values: 
+	location: Mississauga
+	program: None
+	username: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'entity_location': 1.0, 'intent_ask_weather_location': 1.0, 'slot_location_0': 1.0}]
+There is a memorised next action '2'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_weather' with prob 1.00.
+Starting new HTTP connection (1): api.apixu.com:80
+http://api.apixu.com:80 "GET /v1/current.json?key=1499cd68946d4387b6c175525181806&q=Mississauga HTTP/1.1" 200 395
+Bot utterance 'BotUttered(text: It is currently Partly cloudy in Mississauga/Canada at the moment. 
+The temperature is 21.0 oC feels like 21.0 oC.
+ The humidity is 60% and the wind speed is 6.8 kph., data: null)'
+Action 'action_weather' ended with events '['SlotSet(key: location, value: Mississauga)']'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'entity_location': 1.0, 'intent_ask_weather_location': 1.0, 'slot_location_0': 1.0}, {'prev_action_weather': 1.0, 'entity_location': 1.0, 'intent_ask_weather_location': 1.0, 'slot_location_0': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Current topic: None
+Added 'nlp_mitie' to component cache. Key 'nlp_mitie-/Users/leandroarruda/GitHub/nuRobot-new/Chatbots/data/total_word_feature_extractor.dat'.
+Started http server on port 5000
+Up and running
