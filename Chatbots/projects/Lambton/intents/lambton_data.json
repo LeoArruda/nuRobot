@@ -151,6 +151,31 @@
         "entities": []
       },
       {
+        "text": "Shall I use a coat today?",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "Shall I bring my umbrella?",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "I wondering if is gonna rain?",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "Shall I wear a shorts?",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "Shall I wear a skirt?",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
         "text": "Hey there",
         "intent": "greet",
         "entities": []

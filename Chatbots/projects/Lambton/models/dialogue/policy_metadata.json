@@ -2,28 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "program",
         "username",
-        "location"
+        "location",
+        "program"
       ]
-    },
-    "utter_greet": {
-      "slots": []
-    },
-    "utter_are_you_there": {
-      "slots": []
-    },
-    "utter_are_you_ready": {
-      "slots": []
-    },
-    "utter_howto_print": {
-      "slots": []
-    },
-    "utter_inform_schedule": {
-      "slots": []
-    },
-    "action_weather": {
-      "slots": []
     },
     "utter_goodbye": {
       "slots": []
@@ -34,20 +16,64 @@
     "utter_hug_me": {
       "slots": []
     },
-    "utter_are_you_bot": {
-      "slots": []
-    },
-    "action_answer": {
+    "utter_howto_check_bus_schedule": {
       "slots": []
     },
     "utter_are_you_real": {
       "slots": []
     },
+    "utter_inform_schedule": {
+      "slots": []
+    },
+    "utter_howto_login_systems": {
+      "slots": []
+    },
+    "utter_howto_print": {
+      "slots": []
+    },
+    "utter_howto_pay_college_fee": {
+      "slots": []
+    },
+    "utter_howto_install_software": {
+      "slots": []
+    },
+    "action_weather": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_howto_submit_assignment": {
+      "slots": []
+    },
+    "utter_are_you_ready": {
+      "slots": []
+    },
+    "utter_howto_borrow_book_library": {
+      "slots": []
+    },
+    "utter_howto_get_trascripts": {
+      "slots": []
+    },
+    "utter_are_you_there": {
+      "slots": []
+    },
+    "utter_howto_add_family_member_guardme": {
+      "slots": []
+    },
+    "utter_are_you_bot": {
+      "slots": []
+    },
+    "utter_howto_apply_coop_workpermit": {
+      "slots": []
+    },
     "utter_you_are_funny": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     }
   },
-  "rasa_core": "0.10.1",
+  "rasa_core": "0.9.6",
   "max_histories": [
     3,
     5
@@ -55,6 +81,6 @@
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "policy.nuRobotPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy"
   ]
 }

@@ -36,6 +36,15 @@ action_names:
 - utter_you_are_funny
 - utter_you_are_right
 - utter_you_are_wrong
+- utter_howto_submit_assignment
+- utter_howto_login_systems
+- utter_howto_install_software
+- utter_howto_check_bus_schedule
+- utter_howto_borrow_book_library
+- utter_howto_apply_coop_workpermit
+- utter_howto_add_family_member_guardme
+- utter_howto_pay_college_fee
+- utter_howto_get_trascripts
 actions:
 - actions.ActionWeather
 - actions.ActionAnswer
@@ -73,6 +82,15 @@ actions:
 - utter_you_are_funny
 - utter_you_are_right
 - utter_you_are_wrong
+- utter_howto_submit_assignment
+- utter_howto_login_systems
+- utter_howto_install_software
+- utter_howto_check_bus_schedule
+- utter_howto_borrow_book_library
+- utter_howto_apply_coop_workpermit
+- utter_howto_add_family_member_guardme
+- utter_howto_pay_college_fee
+- utter_howto_get_trascripts
 config:
   store_entities_as_slots: true
 entities:
@@ -85,6 +103,25 @@ intents:
 - are_you_real
 - are_you_sure
 - are_you_there
+- check_program_schedule
+- confirmation
+- dont_care
+- fallback
+- goodbye
+- greet
+- hold_on
+- hug_me
+- inform_location
+- inform_name
+- inform_program
+- no_problem
+- talk_to_me
+- thank_you
+- whats_up
+- you_are_funny
+- you_are_right
+- you_are_welcome
+- you_are_wrong
 - ask_accommodation
 - ask_applied_project
 - ask_capstone_instructor
@@ -101,13 +138,6 @@ intents:
 - ask_unable_to_find_coop
 - ask_weather
 - ask_weather_location
-- check_program_schedule
-- confirmation
-- dont_care
-- fallback
-- goodbye
-- greet
-- hold_on
 - howto_add_family_member_guardme
 - howto_apply_coop_workpermit
 - howto_borrow_book_library
@@ -118,18 +148,6 @@ intents:
 - howto_pay_college_fee
 - howto_print
 - howto_submit_assignment
-- hug_me
-- inform_location
-- inform_name
-- inform_program
-- no_problem
-- talk_to_me
-- thank_you
-- whats_up
-- you_are_funny
-- you_are_right
-- you_are_welcome
-- you_are_wrong
 slots:
   location:
     initial_value: null
@@ -208,8 +226,6 @@ templates:
   - text: Hi there, can I help you?
   utter_hold_on:
   - text: ok sure
-  utter_howto_print:
-  - text: I'll be prepared to inform you in future. Sorry. :(
   utter_hug_me:
   - text: I wish I could!
   - text: I wish I could!
@@ -254,4 +270,25 @@ templates:
   - text: thank you
   utter_you_are_wrong:
   - text: I will correct it, i will learn from you
+  utter_howto_submit_assignment:
+  - text: I will correct it, i will learn from you (howto_submit_assignment)
+  utter_howto_login_systems:
+  - text: I will correct it, i will learn from you (howto_login_systems)
+  utter_howto_install_software:
+  - text: I will correct it, i will learn from you (howto_install_software)
+  utter_howto_get_trascripts:
+  - text: I will correct it, i will learn from you (howto_get_trascripts)
+  utter_howto_check_bus_schedule:
+  - text: I will correct it, i will learn from you (howto_check_bus_schedule)
+  utter_howto_borrow_book_library:
+  - text: I will correct it, i will learn from you (howto_borrow_book_library)
+  utter_howto_apply_coop_workpermit:
+  - text: I will correct it, i will learn from you (howto_apply_coop_workpermit)
+  utter_howto_add_family_member_guardme:
+  - text: I will correct it, i will learn from you (howto_add_family_member_guardme)
+  utter_howto_print:
+  - text: I'll be prepared to inform you in future. Sorry. :(
+  utter_howto_pay_college_fee:
+  - text: "You can pay in many ways:\n  1.International transfer\n  2.eTransfer\n  3.Check"
+
 topics: []

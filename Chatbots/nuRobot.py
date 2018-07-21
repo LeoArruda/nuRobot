@@ -7,6 +7,8 @@ import argparse
 import logging
 import warnings
 
+#warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
 from policy import nuRobotPolicy
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core import utils
@@ -63,7 +65,7 @@ def train_dialogue(project='Lambton'):
     training_data_file="../Chatbots/projects/"+project+"/stories/stories.md"
     model_path="../Chatbots/projects/"+project+"/models/dialogue"
 
-    agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=3), nuRobotPolicy()])
+    agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=3), KerasPolicy()])
 
     training_data = agent.load_data(training_data_file)
     
@@ -85,7 +87,7 @@ def train_online(project='Lambton'):
     #training_data_file="projects/"+project+"/stories/stories.md"
     training_data_file="/Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/"+project+"/stories/stories.md"
     interpreter = RasaNLUInterpreter("../Chatbots/projects/" + project + "/models/nlu/default/current")
-    agent = Agent(domain_file, policies=[MemoizationPolicy(), nuRobotPolicy()],interpreter=interpreter)
+    agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()],interpreter=interpreter)
 
     agent.train_online(training_data_file,
                        input_channel=ConsoleInputChannel(),
@@ -132,8 +134,8 @@ def respond(project='Lambton', message=""):
 
 
 if __name__ == '__main__':
-    utils.configure_colored_logging(loglevel="DEBUG")
-    #utils.configure_colored_logging(loglevel="INFO")
+    #utils.configure_colored_logging(loglevel="DEBUG")
+    utils.configure_colored_logging(loglevel="INFO")
 
     parser = argparse.ArgumentParser(
             description='starts the bot')
