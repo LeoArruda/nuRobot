@@ -6,9 +6,13 @@ RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
+ENV TZ=America/New_York
 ENV NUROBOT_HOME=/app
 
 SHELL ["/bin/bash", "-c"]
+
+# Set Timezone 
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # install TZ
 RUN apt-get install -y tzdata
@@ -45,15 +49,16 @@ RUN python -m spacy download en_core_web_md
 RUN python -m spacy link en_core_web_md en
 RUN python -m spacy download es_core_news_md
 RUN python -m spacy link es_core_news_md es
-
-# Downloading MITIE models
-WORKDIR /app/mitie
-RUN apt-get update  && apt-get -y install wget
-RUN wget https://s3-eu-west-1.amazonaws.com/mitie/total_word_feature_extractor.dat
+RUN pip install git+https://github.com/tmbo/MITIE.git
 
 # Copying bot files
-ADD Chatbots /app
+ADD Chatbots /app/Chatbots
 WORKDIR /app
+
+# Downloading MITIE models
+WORKDIR /app/Chatbots/data
+RUN apt-get update  && apt-get -y install wget
+RUN wget https://s3-eu-west-1.amazonaws.com/mitie/total_word_feature_extractor.dat
 
 # Installing nuRobot from source
 #WORKDIR /app
@@ -65,12 +70,16 @@ WORKDIR /app
 #RUN make -f /data/bot/Makefile train-dialogue
 #VOLUME ["/app/nuRobot/Chatbots/projects/Lambton/models/dialogue", "/app/nuRobot/Chatbots/projects/Lambton/models/nlu/default", "/app/nuRobot/Chatbots/projects/Lambton/logs"]
 
-EXPOSE 5000
+
 
 #ENTRYPOINT NUROBOT_APP=python -m rasa_core.server -d projects/Lambton/models/dialogue \
 # -u projects/Lambton/models/nlu/default/current -p 5000 \
 # -o projects/Lambton/logs/nuRobot-out.log --cors
-
+WORKDIR /app/Chatbots
 # Define default command.
 # CMD make -f /data/bot/Makefile run
+EXPOSE 5000
 CMD python -m rasa_core.server -d projects/Lambton/models/dialogue -u projects/Lambton/models/nlu/default/current -p 5000 -o projects/Lambton/logs/nuRobot-out.log --cors
+
+#ENTRYPOINT python -m rasa_core.server -d projects/Lambton/models/dialogue -u projects/Lambton/models/nlu/default/current -p 5000 -o projects/Lambton/logs/nuRobot-out.log --cors
+

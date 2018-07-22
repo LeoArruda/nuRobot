@@ -2,7 +2,7 @@
     "language": "en",
     "pipeline": [
         {
-            "model": "../Chatbots/data/total_word_feature_extractor.dat",
+            "model": "data/total_word_feature_extractor.dat",
             "name": "nlp_mitie",
             "mitie_feature_extractor_fingerprint": 10023965992282753551,
             "class": "rasa_nlu.utils.mitie_utils.MitieNLP"
