@@ -36,5 +36,18 @@
   "occupational health and safety management": "OHST",
   "scmt": "SCMT",
   "supply chain management": "SCMT",
-  "supply chain": "SCMT"
+  "supply chain": "SCMT",
+  "notebook": "Laptop",
+  "mac": "Laptop",
+  "my machine": "Laptop",
+  "moodle": "Moodle",
+  "cestar database": "Moodle",
+  "cestar db": "Moodle",
+  "mycareer": "myCareer",
+  "mylambton": "myLambton",
+  "webadvisor": "webAdvisor",
+  "web advisor": "webAdvisor",
+  "coop": "Coop",
+  "co-op": "Coop",
+  "co op": "Coop"
 }

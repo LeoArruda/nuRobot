@@ -2314,15 +2314,27 @@
         "text": "my pleasure"
       },
       {
-        "intent": "confirmation",
+        "intent": "confirm",
+        "text": "confirmed"
+      },
+      {
+        "intent": "confirm",
         "text": "yes"
       },
       {
-        "intent": "confirmation",
+        "intent": "deny",
         "text": "no"
       },
       {
-        "intent": "confirmation",
+        "intent": "deny",
+        "text": "I didn't say that"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
         "text": "cancel"
       },
       {
@@ -2458,15 +2470,15 @@
         "text": "What's ahead?"
       },
       {
-        "intent": "confirmation",
+        "intent": "confirm",
         "text": "yes"
       },
       {
-        "intent": "confirmation",
+        "intent": "confirm",
         "text": "no"
       },
       {
-        "intent": "confirmation",
+        "intent": "confirm",
         "text": "cancel"
       },
       {
@@ -2662,6 +2674,34 @@
         "text": "I need a hug."
       },
       {
+        "intent": "ask_byod",
+        "text": "What is BYOD?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Why I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Do I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Can I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "For what I can use the webAdvisor?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "How can I use webAdvisor?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "What's the purpose of webAdvisor?"
+      },
+      {
         "intent": "howto_pay_college_fee",
         "text": "How can i pay my fees?"
       },
@@ -2811,15 +2851,43 @@
       },
       {
         "intent": "howto_get_trascripts",
-        "text": "How do I apply for an enrollment letter?"
-      },
-      {
-        "intent": "howto_get_trascripts",
         "text": "Where can I get my graduation documents?"
       },
       {
         "intent": "howto_get_trascripts",
         "text": "How will I know when my graduation documents are ready for pick up and where do I get them?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How do I apply for an enrollment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How can I get my Enrolment Letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How can I apply for my Enrolment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "I need my enrolment letter, what I need to do?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I get my fee receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I get my receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I receive my receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "After payment, what I have to do to get my receipts?"
       },
       {
         "intent": "howto_print",
@@ -2831,11 +2899,31 @@
       },
       {
         "intent": "ask_fee_for_coop",
+        "text": "Do I need to pay any fee for the co-op term?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
         "text": "Is their any fees to pay to the college in coop semester?"
       },
       {
         "intent": "ask_unable_to_find_coop",
         "text": "What if any student is not able to find coop?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What kind of networking opportunities are there?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What I have to do to increase networking?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What I have to do to expand my networking?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "Is meetup.com a good networking?"
       },
       {
         "intent": "ask_unable_to_find_coop",
@@ -2862,6 +2950,26 @@
         "text": "My GPA is lower than 2.8, can I look for a Coop?"
       },
       {
+        "intent": "ask_college_events",
+        "text": "What kind of mycareer events organized by college?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Is there any job fair here?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Will we have any employeers expo?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Will we have any employeer showcase?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Does the college hosts any event?"
+      },
+      {
         "intent": "ask_coop_eligibility",
         "text": "Who is eligible for co-op?"
       },
@@ -2871,7 +2979,99 @@
       },
       {
         "intent": "ask_coop_eligibility",
-        "text": "How can I know that am I eligible for coop or not? "
+        "text": "How can I know that am I eligible for coop or not?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "Which is the coop advisor of particular course?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "Who is the coop advisor of my program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "I wanna know who is the advisor of my program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is the coop advisor from CCBT program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "MMPT",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is MMPT coop advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "OHST",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is ohst advisor?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What is coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What's the meaning of coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What's the purpose of coop?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What is the role of co-op advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What does co-op advisor do?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What can I ask to my co-op advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "How can co-op advisor help me in my co-op term?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What is mycareer website?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "Where can I find opportunities for co-op?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "Where can I look for co-op?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "It's been difficult to find a coop"
       },
       {
         "intent": "ask_fee_for_applied_project",
@@ -3090,12 +3290,92 @@
         "text": "Are there any scholarships available for international students?"
       },
       {
+        "intent": "howto_check_grades",
+        "text": "How can I check my grades?"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where can I check my final grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where are my grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where are my final grades"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "How can I select my group?"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "Where can I select my group?"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "How can I select my group in Cestar database"
+      },
+      {
         "intent": "howto_submit_assignment",
         "text": "How can I submit the assignment?"
       },
       {
         "intent": "howto_submit_assignment",
         "text": "I missed my assignment, what can I do?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "How can I login to myLambton website?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "What I have to do to access myLambton?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "How to access myLambton?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How to login myLambton email?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How to access lambton's email?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How can I access my email?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "How can I login to Moodle website?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "What I have to do to access Moodle?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "How to access Moodle?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How can I login to myCareer website?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "What I have to do to access myCareer?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How to access myCareer?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How can I log into myCareer?"
       },
       {
         "intent": "howto_login_systems",
@@ -3248,6 +3528,60 @@
           "scmt",
           "Supply Chain Management",
           "Supply Chain"
+        ]
+      },
+      {
+        "value": "Laptop",
+        "synonyms": [
+          "Notebook",
+          "notebook",
+          "Mac",
+          "mac",
+          "my machine"
+        ]
+      },
+      {
+        "value": "Moodle",
+        "synonyms": [
+          "moodle",
+          "MOODLE",
+          "Cestar Database",
+          "cestar database",
+          "cestar db"
+        ]
+      },
+      {
+        "value": "myCareer",
+        "synonyms": [
+          "mycareer",
+          "MyCareer",
+          "MYCAREER"
+        ]
+      },
+      {
+        "value": "myLambton",
+        "synonyms": [
+          "mylambton",
+          "MyLambton",
+          "MYLAMBTON"
+        ]
+      },
+      {
+        "value": "webAdvisor",
+        "synonyms": [
+          "WebAdvisor",
+          "web advisor",
+          "WEBADVISOR"
+        ]
+      },
+      {
+        "value": "Coop",
+        "synonyms": [
+          "coop",
+          "COOP",
+          "CO-OP",
+          "co-op",
+          "co op"
         ]
       }
     ]

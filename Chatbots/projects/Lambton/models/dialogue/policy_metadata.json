@@ -2,9 +2,9 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "username",
         "location",
-        "program"
+        "program",
+        "username"
       ]
     },
     "utter_goodbye": {
@@ -13,7 +13,75 @@
     "action_restart": {
       "slots": []
     },
+    "utter_ask_details_of_guardme": {
+      "slots": []
+    },
+    "utter_are_you_ready": {
+      "slots": []
+    },
+    "utter_inform_schedule": {
+      "slots": []
+    },
     "utter_hug_me": {
+      "slots": []
+    },
+    "utter_ask_guardme_in_break_term": {
+      "slots": []
+    },
+    "utter_ask_networking": {
+      "slots": []
+    },
+    "utter_howto_borrow_book_library": {
+      "slots": []
+    },
+    "utter_howto_submit_assignment": {
+      "slots": []
+    },
+    "utter_howto_add_family_member_guardme": {
+      "slots": []
+    },
+    "utter_ask_byod": {
+      "slots": []
+    },
+    "utter_howto_print": {
+      "slots": []
+    },
+    "utter_are_you_there": {
+      "slots": []
+    },
+    "utter_howto_pay_college_fee": {
+      "slots": []
+    },
+    "utter_you_are_funny": {
+      "slots": []
+    },
+    "utter_howto_get_receipts": {
+      "slots": []
+    },
+    "utter_howto_login_systems": {
+      "slots": []
+    },
+    "utter_ask_guardme_outofcoverage": {
+      "slots": []
+    },
+    "utter_ask_applied_project": {
+      "slots": []
+    },
+    "action_weather": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_ask_guardme_howto_claim": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_ask_student_services": {
+      "slots": []
+    },
+    "utter_ask_fee_for_coop": {
       "slots": []
     },
     "utter_howto_check_bus_schedule": {
@@ -22,60 +90,31 @@
     "utter_are_you_real": {
       "slots": []
     },
-    "utter_inform_schedule": {
-      "slots": []
-    },
-    "utter_howto_login_systems": {
-      "slots": []
-    },
-    "utter_howto_print": {
-      "slots": []
-    },
-    "utter_howto_pay_college_fee": {
-      "slots": []
-    },
-    "utter_howto_install_software": {
-      "slots": []
-    },
-    "action_weather": {
-      "slots": [
-        "location"
-      ]
-    },
-    "utter_howto_submit_assignment": {
-      "slots": []
-    },
-    "utter_are_you_ready": {
-      "slots": []
-    },
-    "utter_howto_borrow_book_library": {
-      "slots": []
-    },
-    "utter_howto_get_trascripts": {
-      "slots": []
-    },
-    "utter_are_you_there": {
-      "slots": []
-    },
-    "utter_howto_add_family_member_guardme": {
+    "utter_howto_apply_coop_workpermit": {
       "slots": []
     },
     "utter_are_you_bot": {
       "slots": []
     },
-    "utter_howto_apply_coop_workpermit": {
+    "utter_howto_get_trascripts": {
       "slots": []
     },
-    "utter_you_are_funny": {
+    "utter_howto_install_software": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_ask_accommodation": {
+      "slots": []
+    },
+    "utter_ask_unable_to_find_coop": {
+      "slots": []
+    },
+    "utter_ask_guardme_coverage": {
       "slots": []
     }
   },
   "rasa_core": "0.9.6",
   "max_histories": [
-    3,
+    5,
     5
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",

@@ -25,6 +25,60 @@
         ]
       },
       {
+        "value": "Laptop",
+        "synonyms": [
+          "Notebook", 
+          "notebook",
+          "Mac", 
+          "mac",
+          "my machine"
+        ]
+      },
+      {
+        "value": "Moodle",
+        "synonyms": [
+          "moodle", 
+          "MOODLE", 
+          "Cestar Database",
+          "cestar database",
+          "cestar db"
+        ]
+      },
+      {
+        "value": "myCareer",
+        "synonyms": [
+          "mycareer", 
+          "MyCareer",
+          "MYCAREER"
+        ]
+      },
+      {
+        "value": "myLambton",
+        "synonyms": [
+          "mylambton",
+          "MyLambton",
+          "MYLAMBTON"
+        ]
+      },
+      {
+        "value": "webAdvisor",
+        "synonyms": [
+          "WebAdvisor",
+          "web advisor",
+          "WEBADVISOR"
+        ]
+      },
+      {
+        "value": "Coop",
+        "synonyms": [
+          "coop", 
+          "COOP", 
+          "CO-OP",
+          "co-op",
+          "co op"
+        ]
+      },
+      {
         "value": "MADT",
         "synonyms": [
           "madt",
@@ -938,18 +992,33 @@
         "entities": []
       },
       {
+        "text": "confirmed",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
         "text": "yes",
-        "intent": "confirmation",
+        "intent": "confirm",
         "entities": []
       },
       {
         "text": "no",
-        "intent": "confirmation",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "I didn't say that",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
         "entities": []
       },
       {
         "text": "cancel",
-        "intent": "confirmation",
+        "intent": "deny",
         "entities": []
       },
       {
@@ -1119,17 +1188,17 @@
       },
       {
         "text": "yes",
-        "intent": "confirmation",
+        "intent": "confirm",
         "entities": []
       },
       {
         "text": "no",
-        "intent": "confirmation",
+        "intent": "confirm",
         "entities": []
       },
       {
         "text": "cancel",
-        "intent": "confirmation",
+        "intent": "confirm",
         "entities": []
       },
       {
@@ -1352,6 +1421,41 @@
         "entities": []
       },
       {
+        "text": "What is BYOD?",
+        "intent": "ask_byod",
+        "entities": []
+      },
+      {
+        "text": "Why I need to bring my Laptop?",
+        "intent": "ask_byod",
+        "entities": []
+      },
+      {
+        "text": "Do I need to bring my Laptop?",
+        "intent": "ask_byod",
+        "entities": []
+      },
+      {
+        "text": "Can I need to bring my Laptop?",
+        "intent": "ask_byod",
+        "entities": []
+      },
+      {
+        "text": "For what I can use the webAdvisor?",
+        "intent": "ask_webadvisor_use",
+        "entities": []
+      },
+      {
+        "text": "How can I use webAdvisor?",
+        "intent": "ask_webadvisor_use",
+        "entities": []
+      },
+      {
+        "text": "What's the purpose of webAdvisor?",
+        "intent": "ask_webadvisor_use",
+        "entities": []
+      },
+      {
         "text": "How can i pay my fees?",
         "intent": "howto_pay_college_fee",
         "entities": []
@@ -1462,6 +1566,11 @@
         "entities": []
       },
       {
+        "text": "Is there any Student services here?",
+        "intent": "ask_student_services",
+        "entities": []
+      },
+      {
         "text": "Where can I find the student services office?",
         "intent": "ask_student_services",
         "entities": []
@@ -1537,11 +1646,6 @@
         "entities": []
       },
       {
-        "text": "How do I apply for an enrollment letter?",
-        "intent": "howto_get_trascripts",
-        "entities": []
-      },
-      {
         "text": "Where can I get my graduation documents?",
         "intent": "howto_get_trascripts",
         "entities": []
@@ -1552,12 +1656,62 @@
         "entities": []
       },
       {
+        "text": "How do I apply for an enrollment letter?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "How can I get my Enrolment Letter?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "How can I apply for my Enrolment letter?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "I need my enrolment letter, what I need to do?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "How can I get my fee receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
+        "text": "How can I get my receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
+        "text": "How can I receive my receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
+        "text": "After payment, what I have to do to get my receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
         "text": "How can get the printouts?",
         "intent": "howto_print",
         "entities": []
       },
       {
+        "text": "Why should I pay for coop term?",
+        "intent": "ask_fee_for_coop",
+        "entities": []
+      },
+      {
         "text": "Why I have to pay tuition for the co-op term?",
+        "intent": "ask_fee_for_coop",
+        "entities": []
+      },
+      {
+        "text": "Do I need to pay any fee for the co-op term?",
         "intent": "ask_fee_for_coop",
         "entities": []
       },
@@ -1569,6 +1723,26 @@
       {
         "text": "What if any student is not able to find coop?",
         "intent": "ask_unable_to_find_coop",
+        "entities": []
+      },
+      {
+        "text": "What kind of networking opportunities are there?",
+        "intent": "ask_networking",
+        "entities": []
+      },
+      {
+        "text": "What I have to do to increase networking?",
+        "intent": "ask_networking",
+        "entities": []
+      },
+      {
+        "text": "What I have to do to expand my networking?",
+        "intent": "ask_networking",
+        "entities": []
+      },
+      {
+        "text": "Is meetup.com a good networking?",
+        "intent": "ask_networking",
         "entities": []
       },
       {
@@ -1592,13 +1766,43 @@
         "entities": []
       },
       {
-        "text": "My GPA is lower than 2.8, can I look for a Coop?",
+        "text": "My GPA is less than 2.8, Am I eligible for a Coop?",
+        "intent": "ask_applied_project",
+        "entities": []
+      },
+      {
+        "text": "I didn't match the minimum GPA required to coop, what I have to do?",
         "intent": "ask_applied_project",
         "entities": []
       },
       {
         "text": "My GPA is lower than 2.8, can I look for a Coop?",
         "intent": "ask_applied_project",
+        "entities": []
+      },
+      {
+        "text": "What kind of mycareer events organized by college?",
+        "intent": "ask_college_events",
+        "entities": []
+      },
+      {
+        "text": "Is there any job fair here?",
+        "intent": "ask_college_events",
+        "entities": []
+      },
+      {
+        "text": "Will we have any employeers expo?",
+        "intent": "ask_college_events",
+        "entities": []
+      },
+      {
+        "text": "Will we have any employeer showcase?",
+        "intent": "ask_college_events",
+        "entities": []
+      },
+      {
+        "text": "Does the college hosts any event?",
+        "intent": "ask_college_events",
         "entities": []
       },
       {
@@ -1612,8 +1816,115 @@
         "entities": []
       },
       {
-        "text": "How can I know that am I eligible for coop or not? ",
+        "text": "How can I know that am I eligible for coop or not?",
         "intent": "ask_coop_eligibility",
+        "entities": []
+      },
+      {
+        "text": "Which is the coop advisor of particular course?",
+        "intent": "ask_coop_advisor",
+        "entities": []
+      },
+      {
+        "text": "Who is the coop advisor of my program?",
+        "intent": "ask_coop_advisor",
+        "entities": []
+      },
+      {
+        "text": "I wanna know who is the advisor of my program?",
+        "intent": "ask_coop_advisor",
+        "entities": []
+      },
+      {
+        "text": "Who is the coop advisor from CCBT program?",
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ]
+      },
+      {
+        "text": "Who is MMPT coop advisor?",
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "MMPT",
+            "entity": "program"
+          }
+        ]
+      },
+      {
+        "text": "Who is ohst advisor?",
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "OHST",
+            "entity": "program"
+          }
+        ]
+      },
+      {
+        "text": "What is coop?",
+        "intent": "ask_whatis_coop",
+        "entities": []
+      },
+      {
+        "text": "What's the meaning of coop?",
+        "intent": "ask_whatis_coop",
+        "entities": []
+      },
+      {
+        "text": "What's the purpose of coop?",
+        "intent": "ask_whatis_coop",
+        "entities": []
+      },
+      {
+        "text": "What is the role of co-op advisor?",
+        "intent": "ask_coop_advisor_role",
+        "entities": []
+      },
+      {
+        "text": "What does co-op advisor do?",
+        "intent": "ask_coop_advisor_role",
+        "entities": []
+      },
+
+      {
+        "text": "What can I ask to my co-op advisor?",
+        "intent": "ask_coop_advisor_role",
+        "entities": []
+      },
+      {
+        "text": "How can co-op advisor help me in my co-op term?",
+        "intent": "ask_coop_advisor_role",
+        "entities": []
+      },
+      {
+        "text": "What is mycareer website?",
+        "intent": "ask_unable_to_find_coop",
+        "entities": []
+      },
+      {
+        "text": "Where can I find opportunities for co-op?",
+        "intent": "ask_unable_to_find_coop",
+        "entities": []
+      },
+      {
+        "text": "Where can I look for co-op?",
+        "intent": "ask_unable_to_find_coop",
+        "entities": []
+      },
+      {
+        "text": "It's been difficult to find a coop",
+        "intent": "ask_unable_to_find_coop",
         "entities": []
       },
       {
@@ -1837,6 +2148,11 @@
         "entities": []
       },
       {
+        "text": "Does the college provide accommodations?",
+        "intent": "ask_accommodation",
+        "entities": []
+      },
+      {
         "text": "What services the college provide to help me to find a place to live in Toronto?",
         "intent": "ask_accommodation",
         "entities": []
@@ -1887,6 +2203,41 @@
         "entities": []
       },
       {
+        "text": "How can I check my grades?",
+        "intent": "howto_check_grades",
+        "entities": []
+      },
+      {
+        "text": "Where can I check my final grades",
+        "intent": "howto_check_grades",
+        "entities": []
+      },
+      {
+        "text": "Where are my grades",
+        "intent": "howto_check_grades",
+        "entities": []
+      },
+      {
+        "text": "Where are my final grades",
+        "intent": "howto_check_grades",
+        "entities": []
+      },
+      {
+        "text": "How can I select my group?",
+        "intent": "howto_select_group",
+        "entities": []
+      },
+      {
+        "text": "Where can I select my group?",
+        "intent": "howto_select_group",
+        "entities": []
+      },
+      {
+        "text": "How can I select my group in Cestar database",
+        "intent": "howto_select_group",
+        "entities": []
+      },
+      {
         "text": "How can I submit the assignment?",
         "intent": "howto_submit_assignment",
         "entities": []
@@ -1894,6 +2245,72 @@
       {
         "text": "I missed my assignment, what can I do?",
         "intent": "howto_submit_assignment",
+        "entities": []
+      },
+      {
+        "text": "How can I login to myLambton website?",
+        "intent": "howto_login_mylambton",
+        "entities": []
+      },
+      {
+        "text": "What I have to do to access myLambton?",
+        "intent": "howto_login_mylambton",
+        "entities": []
+      },
+      {
+        "text": "How to access myLambton?",
+        "intent": "howto_login_mylambton",
+        "entities": []
+      },
+
+      {
+        "text": "How to login myLambton email?",
+        "intent": "howto_login_email",
+        "entities": []
+      },
+      {
+        "text": "How to access lambton's email?",
+        "intent": "howto_login_email",
+        "entities": []
+      },
+      {
+        "text": "How can I access my email?",
+        "intent": "howto_login_email",
+        "entities": []
+      },
+      {
+        "text": "How can I login to Moodle website?",
+        "intent": "howto_login_moodle",
+        "entities": []
+      },
+      {
+        "text": "What I have to do to access Moodle?",
+        "intent": "howto_login_moodle",
+        "entities": []
+      },
+      {
+        "text": "How to access Moodle?",
+        "intent": "howto_login_moodle",
+        "entities": []
+      },
+      {
+        "text": "How can I login to myCareer website?",
+        "intent": "howto_login_mycareer",
+        "entities": []
+      },
+      {
+        "text": "What I have to do to access myCareer?",
+        "intent": "howto_login_mycareer",
+        "entities": []
+      },
+      {
+        "text": "How to access myCareer?",
+        "intent": "howto_login_mycareer",
+        "entities": []
+      },
+      {
+        "text": "How can I log into myCareer?",
+        "intent": "howto_login_mycareer",
         "entities": []
       },
       {
