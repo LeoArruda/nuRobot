@@ -1,0 +1,3605 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Tell me the weather"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a chatbot"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a machine"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a circuit"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Texas",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Texas?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Toronto?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Toronto?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in Berlin at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Berlin at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Mississauga",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Mississauga at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Hamilton",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Hamilton today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me whats the weather in Paris"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "Is the weather nice in Barcelona today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Vilnius"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Sao Paulo",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Sao Paulo"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather in Italy"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather in Toronto"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me the weather in Dublin, please"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "in London"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ],
+        "text": "Lithuania"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Italy"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "MADT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm in the course of MADT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 14,
+            "end": 42,
+            "value": "Cloud Computing for Big Data",
+            "entity": "program"
+          }
+        ],
+        "text": "My program is Cloud Computing for Big Data"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "My program is CCBT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "MADT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm taking MADT"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Steve",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Steve"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Albert",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Albert"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Marie",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Marie"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Larissa",
+            "entity": "username"
+          }
+        ],
+        "text": "I am Larissa"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Nathan",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Nathan"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Pedro",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Pedro"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Michele",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Michele"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Edward",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Edward"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Roberta",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Roberta"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Sophia",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Sophia"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Roberta",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Roberta"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Obama",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Obama"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Paris",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Paris"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Steve",
+            "entity": "username"
+          }
+        ],
+        "text": "Steve"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Gisele",
+            "entity": "username"
+          }
+        ],
+        "text": "Gisele"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Manjot",
+            "entity": "username"
+          }
+        ],
+        "text": "Manjot"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Sai Ram",
+            "entity": "username"
+          }
+        ],
+        "text": "Sai Ram"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ryan",
+            "entity": "username"
+          }
+        ],
+        "text": "Ryan"
+      },
+      {
+        "intent": "fallback",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "Susan",
+            "entity": "username"
+          }
+        ],
+        "text": "Sorry Susan, I'm having trouble understanding your question."
+      },
+      {
+        "intent": "fallback",
+        "text": "I think I may have misunderstood your last statement."
+      },
+      {
+        "intent": "fallback",
+        "text": "I'm sorry. I don't quite grasp what you said."
+      },
+      {
+        "intent": "fallback",
+        "text": "I didn't get that. Can you say it again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "I missed what you said. Say it again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, could you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, can you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Can you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, I didn't get that."
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, what was that?"
+      },
+      {
+        "intent": "fallback",
+        "text": "What was that?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "I didn't get that."
+      },
+      {
+        "intent": "fallback",
+        "text": "I missed that."
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "Are you real?"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "Are you alive?"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No probs"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not an issue"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No worries"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not a issue"
+      },
+      {
+        "intent": "thank_you",
+        "text": "Thank you!"
+      },
+      {
+        "intent": "thank_you",
+        "text": "Well done!"
+      },
+      {
+        "intent": "thank_you",
+        "text": "good job"
+      },
+      {
+        "intent": "thank_you",
+        "text": "overall good job"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "You're welcome"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "I am happy to help"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "my pleasure"
+      },
+      {
+        "intent": "confirmation",
+        "text": "yes"
+      },
+      {
+        "intent": "confirmation",
+        "text": "no"
+      },
+      {
+        "intent": "confirmation",
+        "text": "cancel"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hold on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang in there"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Give me a hug!"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are funny"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are naughty"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are crazy"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "Are you ready?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to talk?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to chat?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to speak?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you real?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you alive?"
+      },
+      {
+        "intent": "you_are_right",
+        "text": "You're right."
+      },
+      {
+        "intent": "you_are_right",
+        "text": "You are correct"
+      },
+      {
+        "intent": "you_are_right",
+        "text": "yes, You are correct"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "Are you sure"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "Make sure"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you confident?"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Will you talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Please talk to me"
+      },
+      {
+        "intent": "are_you_there",
+        "text": "Are you there?"
+      },
+      {
+        "intent": "are_you_there",
+        "text": "you there?"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No probs"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not an issue"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No worries"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not a issue"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's up?"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's ahead?"
+      },
+      {
+        "intent": "confirmation",
+        "text": "yes"
+      },
+      {
+        "intent": "confirmation",
+        "text": "no"
+      },
+      {
+        "intent": "confirmation",
+        "text": "cancel"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hold on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang in there"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Give me a hug!"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Can you Give me a hug?"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Can you hug me?"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I don't care"
+      },
+      {
+        "intent": "dont_care",
+        "text": "who cares?"
+      },
+      {
+        "intent": "fallback",
+        "text": "What do you mean?"
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "You're wrong."
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "that's a wrong answer"
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "That's not true"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings!"
+      },
+      {
+        "intent": "greet",
+        "text": "Good day!"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello!"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Cestar College",
+            "entity": "location"
+          }
+        ],
+        "text": "How to print from the Cestar College Wireless Network?"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "here",
+            "entity": "location"
+          }
+        ],
+        "text": "How can I print here?"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Cestar college",
+            "entity": "location"
+          }
+        ],
+        "text": "How to print the document from Cestar college wireless network?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How to use the printer?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can I activate my student card to be used for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can I activate my student card to be used for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for photocopying?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for scanning?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "How can I check this college is under SPP or not?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "Provide me the list of SPP colleges?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "What is SPP?"
+      },
+      {
+        "intent": "check_program_schedule",
+        "text": "I'm planning to got to Lambton to check my program schedule."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 48,
+            "end": 52,
+            "value": "QEMT",
+            "entity": "program"
+          }
+        ],
+        "text": "I am planning to visit Lambton College to check QEMT classes."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 45,
+            "end": 49,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "I am want to visit Lambton College and check CCBT classes."
+      },
+      {
+        "intent": "check_program_schedule",
+        "text": "Show me my program schedule"
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 42,
+            "end": 46,
+            "value": "CSAT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm planing to visit the college to check CSAT classroom."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "BMAT",
+            "entity": "program"
+          }
+        ],
+        "text": "How can I get information of BMAT program"
+      },
+      {
+        "intent": "hug_me",
+        "text": "I need a hug."
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "How can i pay my fees?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "In how many ways I can pay my fees?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Which way is convenient to pay fee?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Which way is faster to pay the fee?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "In how many days it will update to my database?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "How can I get status of my pending fee ?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Can you inform me the Tuition's payments date?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Can fees be paid in instalments?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "When are my tuition fees due and how can I pay them?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "What is the fee structure per semester in Lambton Cloud computing for big data course?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "What is the fee structure per semester in Lambton Cloud computing for big data course?"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "How to add family member to Guard.me health insurance?"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "How to include dependents in a insurances' police?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Are medicine charges covered by Guard me insurance?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What is guardme?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "How does health insurance works?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What kind of health services guard me providing?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What things guard me covers?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Is there any need pay a doctor if I have guard me?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What does my guard me insurance cover and do I need to make an account for each term?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Where is the nearest medical clinic?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What do I do if myself or another student is not feeling well or is injured?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where can I find the student services office?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where is my classroom located?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "How can I purchase a bus pass pass?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "How can I purchase a bus parking pass?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where can I find updates on school events and seminars?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "When is the next bus?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Where can I see the bus schedule?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Where can I see the bus schedule?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How to get the transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How to apply for transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How much fees for transcripts ?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "In how many days I ll receive my transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "how to anticipate my transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How can I request transcripts urgently?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "What is the fees for the transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How do I apply for an enrollment letter?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "Where can I get my graduation documents?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How will I know when my graduation documents are ready for pick up and where do I get them?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can get the printouts?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Why I have to pay tuition for the co-op term?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Is their any fees to pay to the college in coop semester?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What if any student is not able to find coop?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "If I don't find a coop, is there any option to change it to the applied project?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What happen if I do not find a coop for the 3rd term?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "If I get GPA 2.8 in the second term can I choose between coop or Project?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "What is applied project?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "My GPA is lower than 2.8, can I look for a Coop?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "My GPA is lower than 2.8, can I look for a Coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "Who is eligible for co-op?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "What if I got less than 2.8 in 3rd semester, am I still eligible for coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "How can I know that am I eligible for coop or not? "
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "how much I have to pay for applied project?"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "how much I have to pay for applied project?"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "Do I have fees to pay for applied project?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I borrow a book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I return a book ?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I check the book is available in the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How to get the book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can we issue the book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How long can I borrow books from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "Is this book available in the library?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services are included in guard-me insurance?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me what guard-me covers"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me the coverage of guard-me"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What guard-me covers?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not covered by guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Does my health insurance cover the break period?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Does guard me covers health in season break?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Why does not health insurance cover vacations?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my guardian insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my parents insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my guardian in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my daughter in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my son in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include dependents in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I get my money back from guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim my insurance?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim a insurance reimbursement?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Reasons of getting schedule changed for may intake computer students?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "How can I find if there is any change in my schedule?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Request can be made to make changes in schedule?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "How to get our schedule?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "Who is the instructor for capstone project?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "I have an appointment with my instructor but they are not in the classroom, where do I find them?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": " I am having a problem with my instructor, who can I talk to?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "In capstone project, who is the instructor?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "How to apply for work permit for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "I haven't got my coop work permit at airport, how can I apply for that?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Is there any facility in the college to apply for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Any facility in college to apply for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Is there any fees for coop work permit?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "What services the college provide to help me to find a place to live in Toronto?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "what kind of facilities regarding health and accommodation college providing ?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "How can I get accommodation?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "does the college provide any accommodations to new students?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "How much of amount I have to pay for security?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "Is there any security fee?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "How can I get my security fee back?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "Is there a facilitated payment plan for international students?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "How the scholarship works? Which are the requisites to apply for it?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "Are there any scholarships available for international students?"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "How can I submit the assignment?"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "I missed my assignment, what can I do?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log into the systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log on into the systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log in into the Lambton systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log in into Cestar Database?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "How to install any software in college system?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": " I am not able to install any software in my college system. It is showing an error. What the solution for that??"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "How can I install software on my computer?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Tell me the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Shall I use a coat today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Shall I bring my umbrella?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "I wondering if is gonna rain?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Shall I wear a shorts?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Shall I wear a skirt?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a chatbot"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a machine"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "you are a circuit"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Texas",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Texas?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "What is the weather in Toronto?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Toronto?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in Berlin at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Berlin at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Mississauga",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Mississauga at the moment?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Hamilton",
+            "entity": "location"
+          }
+        ],
+        "text": "Whats the weather in Hamilton today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me whats the weather in Paris"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "Is the weather nice in Barcelona today?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Vilnius"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Sao Paulo",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Sao Paulo"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather in Italy"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Toronto",
+            "entity": "location"
+          }
+        ],
+        "text": "How is the weather in Toronto"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
+      },
+      {
+        "intent": "ask_weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me the weather in Dublin, please"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "in London"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ],
+        "text": "Lithuania"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Italy"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "MADT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm in the course of MADT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 14,
+            "end": 42,
+            "value": "Cloud Computing for Big Data",
+            "entity": "program"
+          }
+        ],
+        "text": "My program is Cloud Computing for Big Data"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "My program is CCBT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "MADT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm taking MADT"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Steve",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Steve"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Albert",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Albert"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Marie",
+            "entity": "username"
+          }
+        ],
+        "text": "My name is Marie"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Larissa",
+            "entity": "username"
+          }
+        ],
+        "text": "I am Larissa"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Nathan",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Nathan"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Pedro",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Pedro"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "Michele",
+            "entity": "username"
+          }
+        ],
+        "text": "I'm Michele"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Edward",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Edward"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Roberta",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Roberta"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Sophia",
+            "entity": "username"
+          }
+        ],
+        "text": "Call me Sophia"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Roberta",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Roberta"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Obama",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Obama"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Paris",
+            "entity": "username"
+          }
+        ],
+        "text": "You can call me Paris"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Steve",
+            "entity": "username"
+          }
+        ],
+        "text": "Steve"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Gisele",
+            "entity": "username"
+          }
+        ],
+        "text": "Gisele"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Manjot",
+            "entity": "username"
+          }
+        ],
+        "text": "Manjot"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Sai Ram",
+            "entity": "username"
+          }
+        ],
+        "text": "Sai Ram"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ryan",
+            "entity": "username"
+          }
+        ],
+        "text": "Ryan"
+      },
+      {
+        "intent": "fallback",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "Susan",
+            "entity": "username"
+          }
+        ],
+        "text": "Sorry Susan, I'm having trouble understanding your question."
+      },
+      {
+        "intent": "fallback",
+        "text": "I think I may have misunderstood your last statement."
+      },
+      {
+        "intent": "fallback",
+        "text": "I'm sorry. I don't quite grasp what you said."
+      },
+      {
+        "intent": "fallback",
+        "text": "I didn't get that. Can you say it again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "I missed what you said. Say it again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, could you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, can you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Can you say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, I didn't get that."
+      },
+      {
+        "intent": "fallback",
+        "text": "Sorry, what was that?"
+      },
+      {
+        "intent": "fallback",
+        "text": "What was that?"
+      },
+      {
+        "intent": "fallback",
+        "text": "Say that again?"
+      },
+      {
+        "intent": "fallback",
+        "text": "I didn't get that."
+      },
+      {
+        "intent": "fallback",
+        "text": "I missed that."
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "Are you real?"
+      },
+      {
+        "intent": "are_you_bot",
+        "text": "Are you alive?"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No probs"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not an issue"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No worries"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not a issue"
+      },
+      {
+        "intent": "thank_you",
+        "text": "Thank you!"
+      },
+      {
+        "intent": "thank_you",
+        "text": "Well done!"
+      },
+      {
+        "intent": "thank_you",
+        "text": "good job"
+      },
+      {
+        "intent": "thank_you",
+        "text": "overall good job"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "You're welcome"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "I am happy to help"
+      },
+      {
+        "intent": "you_are_welcome",
+        "text": "my pleasure"
+      },
+      {
+        "intent": "confirm",
+        "text": "confirmed"
+      },
+      {
+        "intent": "confirm",
+        "text": "yes"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "I didn't say that"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "cancel"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hold on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang in there"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Give me a hug!"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are funny"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are naughty"
+      },
+      {
+        "intent": "you_are_funny",
+        "text": "you are crazy"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "Are you ready?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to talk?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to chat?"
+      },
+      {
+        "intent": "are_you_ready",
+        "text": "ready to speak?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you real?"
+      },
+      {
+        "intent": "are_you_real",
+        "text": "Are you alive?"
+      },
+      {
+        "intent": "you_are_right",
+        "text": "You're right."
+      },
+      {
+        "intent": "you_are_right",
+        "text": "You are correct"
+      },
+      {
+        "intent": "you_are_right",
+        "text": "yes, You are correct"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "Are you sure"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "Make sure"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you confident?"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Will you talk to me"
+      },
+      {
+        "intent": "talk_to_me",
+        "text": "Please talk to me"
+      },
+      {
+        "intent": "are_you_there",
+        "text": "Are you there?"
+      },
+      {
+        "intent": "are_you_there",
+        "text": "you there?"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No probs"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not an issue"
+      },
+      {
+        "intent": "no_problem",
+        "text": "No worries"
+      },
+      {
+        "intent": "no_problem",
+        "text": "Not a issue"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's up?"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "whats_up",
+        "text": "What's ahead?"
+      },
+      {
+        "intent": "confirm",
+        "text": "yes"
+      },
+      {
+        "intent": "confirm",
+        "text": "no"
+      },
+      {
+        "intent": "confirm",
+        "text": "cancel"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hold on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang on"
+      },
+      {
+        "intent": "hold_on",
+        "text": "hang in there"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Give me a hug!"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Can you Give me a hug?"
+      },
+      {
+        "intent": "hug_me",
+        "text": "Can you hug me?"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I don't care"
+      },
+      {
+        "intent": "dont_care",
+        "text": "who cares?"
+      },
+      {
+        "intent": "fallback",
+        "text": "What do you mean?"
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "You're wrong."
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "that's a wrong answer"
+      },
+      {
+        "intent": "you_are_wrong",
+        "text": "That's not true"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings!"
+      },
+      {
+        "intent": "greet",
+        "text": "Good day!"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello!"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Cestar College",
+            "entity": "location"
+          }
+        ],
+        "text": "How to print from the Cestar College Wireless Network?"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "here",
+            "entity": "location"
+          }
+        ],
+        "text": "How can I print here?"
+      },
+      {
+        "intent": "howto_print",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Cestar college",
+            "entity": "location"
+          }
+        ],
+        "text": "How to print the document from Cestar college wireless network?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How to use the printer?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can I activate my student card to be used for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can I activate my student card to be used for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for printing?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for photocopying?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "What are the charges for scanning?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "How can I check this college is under SPP or not?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "Provide me the list of SPP colleges?"
+      },
+      {
+        "intent": "ask_spp_collegelist",
+        "text": "What is SPP?"
+      },
+      {
+        "intent": "check_program_schedule",
+        "text": "I'm planning to got to Lambton to check my program schedule."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 48,
+            "end": 52,
+            "value": "QEMT",
+            "entity": "program"
+          }
+        ],
+        "text": "I am planning to visit Lambton College to check QEMT classes."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 45,
+            "end": 49,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "I am want to visit Lambton College and check CCBT classes."
+      },
+      {
+        "intent": "check_program_schedule",
+        "text": "Show me my program schedule"
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 42,
+            "end": 46,
+            "value": "CSAT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm planing to visit the college to check CSAT classroom."
+      },
+      {
+        "intent": "check_program_schedule",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "BMAT",
+            "entity": "program"
+          }
+        ],
+        "text": "How can I get information of BMAT program"
+      },
+      {
+        "intent": "hug_me",
+        "text": "I need a hug."
+      },
+      {
+        "intent": "ask_byod",
+        "text": "What is BYOD?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Why I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Do I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_byod",
+        "text": "Can I need to bring my Laptop?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "For what I can use the webAdvisor?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "How can I use webAdvisor?"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "What's the purpose of webAdvisor?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "How can i pay my fees?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "In how many ways I can pay my fees?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Which way is convenient to pay fee?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Which way is faster to pay the fee?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "In how many days it will update to my database?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "How can I get status of my pending fee ?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Can you inform me the Tuition's payments date?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "Can fees be paid in instalments?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "When are my tuition fees due and how can I pay them?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "What is the fee structure per semester in Lambton Cloud computing for big data course?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "What is the fee structure per semester in Lambton Cloud computing for big data course?"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "How to add family member to Guard.me health insurance?"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "How to include dependents in a insurances' police?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Are medicine charges covered by Guard me insurance?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What is guardme?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "How does health insurance works?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What kind of health services guard me providing?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What things guard me covers?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Is there any need pay a doctor if I have guard me?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What does my guard me insurance cover and do I need to make an account for each term?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Where is the nearest medical clinic?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "What do I do if myself or another student is not feeling well or is injured?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Is there any Student services here?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where can I find the student services office?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where is my classroom located?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "How can I purchase a bus pass pass?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "How can I purchase a bus parking pass?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Where can I find updates on school events and seminars?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "When is the next bus?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Where can I see the bus schedule?"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Where can I see the bus schedule?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How to get the transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How to apply for transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How much fees for transcripts ?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "In how many days I ll receive my transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "how to anticipate my transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How can I request transcripts urgently?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "What is the fees for the transcripts?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "Where can I get my graduation documents?"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "How will I know when my graduation documents are ready for pick up and where do I get them?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How do I apply for an enrollment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How can I get my Enrolment Letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How can I apply for my Enrolment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "I need my enrolment letter, what I need to do?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I get my fee receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I get my receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "How can I receive my receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "After payment, what I have to do to get my receipts?"
+      },
+      {
+        "intent": "howto_print",
+        "text": "How can get the printouts?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Why should I pay for coop term?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Why I have to pay tuition for the co-op term?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Do I need to pay any fee for the co-op term?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Is their any fees to pay to the college in coop semester?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What if any student is not able to find coop?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What kind of networking opportunities are there?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What I have to do to increase networking?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "What I have to do to expand my networking?"
+      },
+      {
+        "intent": "ask_networking",
+        "text": "Is meetup.com a good networking?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "If I don't find a coop, is there any option to change it to the applied project?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What happen if I do not find a coop for the 3rd term?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "If I get GPA 2.8 in the second term can I choose between coop or Project?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "What is applied project?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "My GPA is less than 2.8, Am I eligible for a Coop?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "I didn't match the minimum GPA required to coop, what I have to do?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "My GPA is lower than 2.8, can I look for a Coop?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "What kind of mycareer events organized by college?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Is there any job fair here?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Will we have any employeers expo?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Will we have any employeer showcase?"
+      },
+      {
+        "intent": "ask_college_events",
+        "text": "Does the college hosts any event?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "Who is eligible for co-op?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "What if I got less than 2.8 in 3rd semester, am I still eligible for coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "How can I know that am I eligible for coop or not?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "Which is the coop advisor of particular course?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "Who is the coop advisor of my program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "text": "I wanna know who is the advisor of my program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "CCBT",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is the coop advisor from CCBT program?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "MMPT",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is MMPT coop advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "OHST",
+            "entity": "program"
+          }
+        ],
+        "text": "Who is ohst advisor?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What is coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What's the meaning of coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "What's the purpose of coop?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What is the role of co-op advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What does co-op advisor do?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "What can I ask to my co-op advisor?"
+      },
+      {
+        "intent": "ask_coop_advisor_role",
+        "text": "How can co-op advisor help me in my co-op term?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "What is mycareer website?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "Where can I find opportunities for co-op?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "Where can I look for co-op?"
+      },
+      {
+        "intent": "ask_unable_to_find_coop",
+        "text": "It's been difficult to find a coop"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "how much I have to pay for applied project?"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "how much I have to pay for applied project?"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "Do I have fees to pay for applied project?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I borrow a book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I return a book ?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can I check the book is available in the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How to get the book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How can we issue the book from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "How long can I borrow books from the library?"
+      },
+      {
+        "intent": "howto_borrow_book_library",
+        "text": "Is this book available in the library?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services are included in guard-me insurance?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What kind of services included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me what guard-me covers"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Tell me the coverage of guard-me"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What guard-me covers?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not included in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is not covered by guard-me?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "What is out of guardme coverage?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Does my health insurance cover the break period?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Does guard me covers health in season break?"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "Why does not health insurance cover vacations?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my guardian insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I cover my parents insurance through guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my guardian in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my daughter in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include my son in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "How can I include dependents in guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I get my money back from guard-me?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim my insurance?"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "How can I claim a insurance reimbursement?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Reasons of getting schedule changed for may intake computer students?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "How can I find if there is any change in my schedule?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Request can be made to make changes in schedule?"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "How to get our schedule?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "Who is the instructor for capstone project?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "I have an appointment with my instructor but they are not in the classroom, where do I find them?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": " I am having a problem with my instructor, who can I talk to?"
+      },
+      {
+        "intent": "ask_capstone_instructor",
+        "text": "In capstone project, who is the instructor?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "How to apply for work permit for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "I haven't got my coop work permit at airport, how can I apply for that?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Is there any facility in the college to apply for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Any facility in college to apply for coop?"
+      },
+      {
+        "intent": "howto_apply_coop_workpermit",
+        "text": "Is there any fees for coop work permit?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "Does the college provide accommodations?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "What services the college provide to help me to find a place to live in Toronto?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "what kind of facilities regarding health and accommodation college providing ?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "How can I get accommodation?"
+      },
+      {
+        "intent": "ask_accommodation",
+        "text": "does the college provide any accommodations to new students?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "How much of amount I have to pay for security?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "Is there any security fee?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "How can I get my security fee back?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "Is there a facilitated payment plan for international students?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "How the scholarship works? Which are the requisites to apply for it?"
+      },
+      {
+        "intent": "ask_scholarship_aid",
+        "text": "Are there any scholarships available for international students?"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "How can I check my grades?"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where can I check my final grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where are my grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "Where are my final grades"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "How can I select my group?"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "Where can I select my group?"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "How can I select my group in Cestar database"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "How can I submit the assignment?"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "I missed my assignment, what can I do?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "How can I login to myLambton website?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "What I have to do to access myLambton?"
+      },
+      {
+        "intent": "howto_login_mylambton",
+        "text": "How to access myLambton?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How to login myLambton email?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How to access lambton's email?"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "How can I access my email?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "How can I login to Moodle website?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "What I have to do to access Moodle?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "How to access Moodle?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How can I login to myCareer website?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "What I have to do to access myCareer?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How to access myCareer?"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "How can I log into myCareer?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log into the systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log on into the systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log in into the Lambton systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "How to log in into Cestar Database?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "How to install any software in college system?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": " I am not able to install any software in my college system. It is showing an error. What the solution for that??"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "How can I install software on my computer?"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "New York City",
+        "synonyms": [
+          "NYC",
+          "nyc",
+          "the big apple"
+        ]
+      },
+      {
+        "value": "Toronto",
+        "synonyms": [
+          "toronto",
+          "TORONTO",
+          "here",
+          "Cestar",
+          "Cestar College"
+        ]
+      },
+      {
+        "value": "MADT",
+        "synonyms": [
+          "madt",
+          "Mobile Application Design & Development",
+          "Mobile Application Design and Development"
+        ]
+      },
+      {
+        "value": "CCBT",
+        "synonyms": [
+          "ccbt",
+          "Cloud Computing for Big Data",
+          "Cloud Computing 4 Big Data"
+        ]
+      },
+      {
+        "value": "CSAT",
+        "synonyms": [
+          "csac",
+          "Computer Software & Database Development",
+          "Computer Software and Database Development"
+        ]
+      },
+      {
+        "value": "LAQT",
+        "synonyms": [
+          "laqt",
+          "Chemical Laboratory Analysis"
+        ]
+      },
+      {
+        "value": "PMLT",
+        "synonyms": [
+          "pmlt",
+          "Advanced Project Management & Strategic Leadership",
+          "Advanced Project Management and Strategic Leadership"
+        ]
+      },
+      {
+        "value": "CPMT",
+        "synonyms": [
+          "cpmt",
+          "Construction Project Management"
+        ]
+      },
+      {
+        "value": "EMBT",
+        "synonyms": [
+          "embt",
+          "Embedded Systems Engineering Design",
+          "Embedded Systems"
+        ]
+      },
+      {
+        "value": "FPWT",
+        "synonyms": [
+          "fpwt",
+          "Financial Planning & Wealth Management",
+          "Financial Planning and Wealth Management"
+        ]
+      },
+      {
+        "value": "MMDT",
+        "synonyms": [
+          "mmdt",
+          "Marketing Management - Digital Media",
+          "Marketing Management",
+          "Digital Media"
+        ]
+      },
+      {
+        "value": "OHST",
+        "synonyms": [
+          "ohst",
+          "Occupational Health & Safety Management",
+          "Occupational Health and Safety Management"
+        ]
+      },
+      {
+        "value": "SCMT",
+        "synonyms": [
+          "scmt",
+          "Supply Chain Management",
+          "Supply Chain"
+        ]
+      },
+      {
+        "value": "Laptop",
+        "synonyms": [
+          "Notebook",
+          "notebook",
+          "Mac",
+          "mac",
+          "my machine"
+        ]
+      },
+      {
+        "value": "Moodle",
+        "synonyms": [
+          "moodle",
+          "MOODLE",
+          "Cestar Database",
+          "cestar database",
+          "cestar db"
+        ]
+      },
+      {
+        "value": "myCareer",
+        "synonyms": [
+          "mycareer",
+          "MyCareer",
+          "MYCAREER"
+        ]
+      },
+      {
+        "value": "myLambton",
+        "synonyms": [
+          "mylambton",
+          "MyLambton",
+          "MYLAMBTON"
+        ]
+      },
+      {
+        "value": "webAdvisor",
+        "synonyms": [
+          "WebAdvisor",
+          "web advisor",
+          "WEBADVISOR"
+        ]
+      },
+      {
+        "value": "Coop",
+        "synonyms": [
+          "coop",
+          "COOP",
+          "CO-OP",
+          "co-op",
+          "co op"
+        ]
+      }
+    ]
+  }
+}

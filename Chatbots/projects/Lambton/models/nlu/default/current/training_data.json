@@ -2754,8 +2754,16 @@
         "text": "How to include dependents in a insurances' police?"
       },
       {
+        "intent": "howto_add_family_member_guardme",
+        "text": "How to include dependents in my insurance?"
+      },
+      {
         "intent": "ask_details_of_guardme",
         "text": "Are medicine charges covered by Guard me insurance?"
+      },
+      {
+        "intent": "ask_details_of_guardme",
+        "text": "Are medicine charges covered by my insurance?"
       },
       {
         "intent": "ask_details_of_guardme",
@@ -2788,6 +2796,10 @@
       {
         "intent": "ask_details_of_guardme",
         "text": "What do I do if myself or another student is not feeling well or is injured?"
+      },
+      {
+        "intent": "ask_student_services",
+        "text": "Is there any Student services here?"
       },
       {
         "intent": "ask_student_services",
@@ -2863,15 +2875,23 @@
       },
       {
         "intent": "howto_get_enrollment",
-        "text": "How can I get my Enrolment Letter?"
+        "text": "How can I apply for my Enrollment Letter?"
       },
       {
         "intent": "howto_get_enrollment",
-        "text": "How can I apply for my Enrolment letter?"
+        "text": "How can I get my Enrollment Letter?"
       },
       {
         "intent": "howto_get_enrollment",
-        "text": "I need my enrolment letter, what I need to do?"
+        "text": "How can I receive my Enrollment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "How can I apply for a Enrollment letter?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "I need my enrollment letter, what I need to do?"
       },
       {
         "intent": "howto_get_receipts",
@@ -2892,6 +2912,10 @@
       {
         "intent": "howto_print",
         "text": "How can get the printouts?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "Why should I pay for coop term?"
       },
       {
         "intent": "ask_fee_for_coop",
@@ -2943,7 +2967,11 @@
       },
       {
         "intent": "ask_applied_project",
-        "text": "My GPA is lower than 2.8, can I look for a Coop?"
+        "text": "My GPA is less than 2.8, Am I eligible for a Coop?"
+      },
+      {
+        "intent": "ask_applied_project",
+        "text": "I didn't match the minimum GPA required to coop, what I have to do?"
       },
       {
         "intent": "ask_applied_project",
@@ -3251,6 +3279,10 @@
       },
       {
         "intent": "ask_accommodation",
+        "text": "Does the college provide accommodations?"
+      },
+      {
+        "intent": "ask_accommodation",
         "text": "What services the college provide to help me to find a place to live in Toronto?"
       },
       {
@@ -3528,6 +3560,16 @@
           "scmt",
           "Supply Chain Management",
           "Supply Chain"
+        ]
+      },
+      {
+        "value": "Software",
+        "synonyms": [
+          "Office",
+          "MS Project",
+          "Excel",
+          "Word",
+          "Powerpoint"
         ]
       },
       {

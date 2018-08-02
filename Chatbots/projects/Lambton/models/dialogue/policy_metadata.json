@@ -2,69 +2,27 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "location",
         "program",
+        "location",
         "username"
       ]
     },
-    "utter_goodbye": {
+    "utter_ask_capstone_instructor": {
       "slots": []
     },
-    "action_restart": {
+    "utter_howto_install_software": {
       "slots": []
     },
-    "utter_ask_details_of_guardme": {
-      "slots": []
-    },
-    "utter_are_you_ready": {
-      "slots": []
-    },
-    "utter_inform_schedule": {
-      "slots": []
-    },
-    "utter_hug_me": {
-      "slots": []
-    },
-    "utter_ask_guardme_in_break_term": {
-      "slots": []
-    },
-    "utter_ask_networking": {
-      "slots": []
-    },
-    "utter_howto_borrow_book_library": {
-      "slots": []
-    },
-    "utter_howto_submit_assignment": {
-      "slots": []
-    },
-    "utter_howto_add_family_member_guardme": {
-      "slots": []
-    },
-    "utter_ask_byod": {
+    "utter_are_you_bot": {
       "slots": []
     },
     "utter_howto_print": {
       "slots": []
     },
-    "utter_are_you_there": {
-      "slots": []
-    },
-    "utter_howto_pay_college_fee": {
-      "slots": []
-    },
-    "utter_you_are_funny": {
+    "utter_howto_apply_coop_workpermit": {
       "slots": []
     },
     "utter_howto_get_receipts": {
-      "slots": []
-    },
-    "utter_howto_login_systems": {
-      "slots": []
-    },
-    "utter_ask_guardme_outofcoverage": {
-      "slots": []
-    },
-    "utter_ask_applied_project": {
       "slots": []
     },
     "action_weather": {
@@ -72,54 +30,131 @@
         "location"
       ]
     },
+    "utter_howto_borrow_book_library": {
+      "slots": []
+    },
+    "utter_howto_login_systems": {
+      "slots": []
+    },
+    "utter_ask_networking": {
+      "slots": []
+    },
+    "utter_howto_add_family_member_guardme": {
+      "slots": []
+    },
+    "utter_you_are_funny": {
+      "slots": []
+    },
+    "utter_howto_get_enrollment": {
+      "slots": []
+    },
+    "utter_ask_applied_project": {
+      "slots": []
+    },
+    "utter_howto_check_grades": {
+      "slots": []
+    },
+    "utter_ask_guardme_outofcoverage": {
+      "slots": []
+    },
     "utter_ask_guardme_howto_claim": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_ask_guardme_coverage": {
       "slots": []
     },
-    "utter_ask_student_services": {
+    "utter_are_you_ready": {
       "slots": []
     },
-    "utter_ask_fee_for_coop": {
+    "utter_howto_pay_college_fee": {
       "slots": []
     },
-    "utter_howto_check_bus_schedule": {
+    "utter_ask_byod": {
       "slots": []
     },
-    "utter_are_you_real": {
+    "utter_are_you_there": {
       "slots": []
     },
-    "utter_howto_apply_coop_workpermit": {
-      "slots": []
-    },
-    "utter_are_you_bot": {
+    "utter_ask_details_of_guardme": {
       "slots": []
     },
     "utter_howto_get_trascripts": {
       "slots": []
     },
-    "utter_howto_install_software": {
+    "utter_ask_unable_to_find_coop": {
+      "slots": []
+    },
+    "utter_ask_scholarship_aid": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_are_you_real": {
+      "slots": []
+    },
+    "utter_howto_login_mycareer": {
+      "slots": []
+    },
+    "utter_howto_check_bus_schedule": {
+      "slots": []
+    },
+    "utter_ask_coop_advisor": {
+      "slots": []
+    },
+    "utter_howto_select_group": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_howto_submit_assignment": {
+      "slots": []
+    },
+    "utter_howto_login_email": {
+      "slots": []
+    },
+    "utter_inform_schedule": {
+      "slots": []
+    },
+    "utter_ask_fee_for_coop": {
+      "slots": []
+    },
+    "utter_howto_login_mylambton": {
       "slots": []
     },
     "utter_ask_accommodation": {
       "slots": []
     },
-    "utter_ask_unable_to_find_coop": {
+    "utter_ask_guardme_in_break_term": {
       "slots": []
     },
-    "utter_ask_guardme_coverage": {
+    "utter_ask_webadvisor_use": {
+      "slots": []
+    },
+    "utter_ask_coop_advisor_role": {
+      "slots": []
+    },
+    "utter_hug_me": {
+      "slots": []
+    },
+    "utter_ask_college_events": {
+      "slots": []
+    },
+    "utter_ask_student_services": {
       "slots": []
     }
   },
   "rasa_core": "0.9.6",
   "max_histories": [
+    3,
     5,
-    5
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ]
 }

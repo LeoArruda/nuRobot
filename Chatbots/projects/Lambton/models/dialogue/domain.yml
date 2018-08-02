@@ -5,24 +5,37 @@ action_names:
 - utter_ask_name
 - utter_action_weather
 - utter_affirm
-- utter_ask_accommodation
-- utter_ask_applied_project
-- utter_ask_byod
-- utter_ask_fee_for_coop
 - utter_are_you_bot
 - utter_are_you_ready
 - utter_are_you_real
 - utter_are_you_sure
 - utter_are_you_there
+- utter_ask_webadvisor_use
+- utter_ask_capstone_instructor
+- utter_ask_college_events
+- utter_ask_coop_eligibility
+- utter_ask_coop_advisor
+- utter_ask_whatis_coop
+- utter_ask_coop_advisor_role
+- utter_ask_accommodation
+- utter_ask_applied_project
+- utter_ask_byod
+- utter_ask_fee_for_applied_project
+- utter_ask_fee_for_coop
 - utter_ask_location
 - utter_ask_program
 - utter_ask_details_of_guardme
+- utter_ask_guardme_howto_include_dependents
 - utter_ask_guardme_coverage
 - utter_ask_guardme_howto_claim
 - utter_ask_guardme_in_break_term
 - utter_ask_guardme_outofcoverage
 - utter_ask_networking
 - utter_ask_student_services
+- utter_ask_schedule
+- utter_ask_scholarship_aid
+- utter_ask_security_fee
+- utter_ask_spp_collegelist
 - utter_ask_unable_to_find_coop
 - utter_confirmation
 - utter_deny
@@ -32,10 +45,17 @@ action_names:
 - utter_goodbye
 - utter_greet
 - utter_hold_on
+- utter_howto_login_mycareer
+- utter_howto_login_moodle
+- utter_howto_login_mylambton
+- utter_howto_login_email
+- utter_howto_select_group
+- utter_howto_get_enrollment
 - utter_howto_add_family_member_guardme
 - utter_howto_apply_coop_workpermit
 - utter_howto_borrow_book_library
 - utter_howto_check_bus_schedule
+- utter_howto_check_grades
 - utter_howto_get_trascripts
 - utter_howto_get_receipts
 - utter_howto_install_software
@@ -59,24 +79,37 @@ actions:
 - utter_ask_name
 - utter_action_weather
 - utter_affirm
-- utter_ask_accommodation
-- utter_ask_applied_project
-- utter_ask_byod
-- utter_ask_fee_for_coop
 - utter_are_you_bot
 - utter_are_you_ready
 - utter_are_you_real
 - utter_are_you_sure
 - utter_are_you_there
+- utter_ask_webadvisor_use
+- utter_ask_capstone_instructor
+- utter_ask_college_events
+- utter_ask_coop_eligibility
+- utter_ask_coop_advisor
+- utter_ask_whatis_coop
+- utter_ask_coop_advisor_role
+- utter_ask_accommodation
+- utter_ask_applied_project
+- utter_ask_byod
+- utter_ask_fee_for_applied_project
+- utter_ask_fee_for_coop
 - utter_ask_location
 - utter_ask_program
 - utter_ask_details_of_guardme
+- utter_ask_guardme_howto_include_dependents
 - utter_ask_guardme_coverage
 - utter_ask_guardme_howto_claim
 - utter_ask_guardme_in_break_term
 - utter_ask_guardme_outofcoverage
 - utter_ask_networking
 - utter_ask_student_services
+- utter_ask_schedule
+- utter_ask_scholarship_aid
+- utter_ask_security_fee
+- utter_ask_spp_collegelist
 - utter_ask_unable_to_find_coop
 - utter_confirmation
 - utter_deny
@@ -86,10 +119,17 @@ actions:
 - utter_goodbye
 - utter_greet
 - utter_hold_on
+- utter_howto_login_mycareer
+- utter_howto_login_moodle
+- utter_howto_login_mylambton
+- utter_howto_login_email
+- utter_howto_select_group
+- utter_howto_get_enrollment
 - utter_howto_add_family_member_guardme
 - utter_howto_apply_coop_workpermit
 - utter_howto_borrow_book_library
 - utter_howto_check_bus_schedule
+- utter_howto_check_grades
 - utter_howto_get_trascripts
 - utter_howto_get_receipts
 - utter_howto_install_software
@@ -224,7 +264,7 @@ templates:
   utter_ask_accommodation:
   - text: I will correct it, i will learn from you (ask_accommodation)
   utter_ask_applied_project:
-  - text: I will correct it, i will learn from you (ask_applied_project)
+  - text: I will learn from you (ask_applied_project)
   utter_ask_byod:
   - text: 'Students enrolled in SCHL courses are required to purchase or bring a laptop
 
@@ -237,14 +277,28 @@ templates:
 
       • Students are expected to use their own device as an interactive tool during
       class time and online work.'
+  utter_ask_capstone_instructor:
+  - text: I will learn from you (utter_ask_capstone_instructor)
+  utter_ask_college_events:
+  - text: I will learn from you (utter_ask_college_events)
+  utter_ask_coop_advisor:
+  - text: I will learn from you (utter_ask_coop_advisor)
+  utter_ask_coop_advisor_role:
+  - text: I will learn from you (utter_ask_coop_advisor_role)
+  utter_ask_coop_eligibility:
+  - text: I will learn from you (utter_ask_coop_eligibility)
   utter_ask_details_of_guardme:
   - text: Details of guardme
+  utter_ask_fee_for_applied_project:
+  - text: I will learn from you (ask_fee_for_applied_project)
   utter_ask_fee_for_coop:
-  - text: I will correct it, i will learn from you (ask_fee_for_coop)
+  - text: I will learn from you (ask_fee_for_coop)
   utter_ask_guardme_coverage:
   - text: Details of guardme coverage
   utter_ask_guardme_howto_claim:
   - text: Ask guardme how to claim
+  utter_ask_guardme_howto_include_dependents:
+  - text: Details of guardme (ask_guardme_howto_include_dependents)
   utter_ask_guardme_in_break_term:
   - text: Ask guardme why in the break
   utter_ask_guardme_outofcoverage:
@@ -263,6 +317,14 @@ templates:
   - text: What's your program?
   - text: Can you please tell me your program?
   - text: Which program are you?
+  utter_ask_schedule:
+  - text: I will learn from you (utter_ask_schedule)
+  utter_ask_scholarship_aid:
+  - text: I will learn from you (utter_ask_scholarship_aid)
+  utter_ask_security_fee:
+  - text: I will learn from you (utter_ask_security_fee)
+  utter_ask_spp_collegelist:
+  - text: I will learn from you (utter_ask_spp_collegelist)
   utter_ask_student_services:
   - text: I will correct it, i will learn from you (ask_student_services)
   utter_ask_unable_to_find_coop:
@@ -271,6 +333,10 @@ templates:
       \ with advisors\n• Part-time position postings (under Career Services)\n• Events\
       \ (including job fairs) under Career Services \n• Co-op job postings (Term 3\
       \ – under Co-op)"
+  utter_ask_webadvisor_use:
+  - text: I will learn from you (utter_ask_webadvisor_use)
+  utter_ask_whatis_coop:
+  - text: I will learn from you (utter_ask_whatis_coop)
   utter_confirmation:
   - text: Ok sure
   - text: Nice
@@ -351,28 +417,42 @@ templates:
   utter_hold_on:
   - text: ok sure
   utter_howto_add_family_member_guardme:
-  - text: I will correct it, i will learn from you (howto_add_family_member_guardme)
+  - text: I will learn from you (howto_add_family_member_guardme)
   utter_howto_apply_coop_workpermit:
-  - text: I will correct it, i will learn from you (howto_apply_coop_workpermit)
+  - text: I will learn from you (howto_apply_coop_workpermit)
   utter_howto_borrow_book_library:
-  - text: I will correct it, i will learn from you (howto_borrow_book_library)
+  - text: I will learn from you (howto_borrow_book_library)
   utter_howto_check_bus_schedule:
-  - text: I will correct it, i will learn from you (howto_check_bus_schedule)
+  - text: I will learn from you (howto_check_bus_schedule)
+  utter_howto_check_grades:
+  - text: I will learn from you (howto_check_grades)
+  utter_howto_get_enrollment:
+  - text: I will learn from you (howto_get_enrollment)
   utter_howto_get_receipts:
-  - text: I will correct it, i will learn from you (howto_get_receipts)
+  - text: I will learn from you (howto_get_receipts)
   utter_howto_get_trascripts:
-  - text: I will correct it, i will learn from you (howto_get_trascripts)
+  - text: I will learn from you (howto_get_trascripts)
   utter_howto_install_software:
-  - text: I will correct it, i will learn from you (howto_install_software)
+  - text: I will learn from you (howto_install_software)
+  utter_howto_login_email:
+  - text: I will learn from you (utter_howto_login_email)
+  utter_howto_login_moodle:
+  - text: I will learn from you (utter_howto_login_moodle)
+  utter_howto_login_mycareer:
+  - text: I will learn from you (utter_howto_login_mycareer)
+  utter_howto_login_mylambton:
+  - text: I will learn from you (utter_howto_login_mylambton)
   utter_howto_login_systems:
-  - text: I will correct it, i will learn from you (howto_login_systems)
+  - text: I learn from you (howto_login_systems)
   utter_howto_pay_college_fee:
   - text: "You can pay in many ways:\n  1.International transfer\n  2.eTransfer\n\
       \  3.Check"
   utter_howto_print:
   - text: I'll be prepared to inform you in future. Sorry. :(
+  utter_howto_select_group:
+  - text: I will learn from you (utter_howto_select_group)
   utter_howto_submit_assignment:
-  - text: I will correct it, i will learn from you (howto_submit_assignment)
+  - text: I will learn from you (howto_submit_assignment)
   utter_hug_me:
   - text: I wish I could!
   - text: I don't know if I would!

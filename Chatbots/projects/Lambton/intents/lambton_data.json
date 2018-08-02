@@ -25,6 +25,16 @@
         ]
       },
       {
+        "value": "Software",
+        "synonyms": [
+          "Office", 
+          "MS Project",
+          "Excel", 
+          "Word",
+          "Powerpoint"
+        ]
+      },
+      {
         "value": "Laptop",
         "synonyms": [
           "Notebook", 
@@ -1521,7 +1531,17 @@
         "entities": []
       },
       {
+        "text": "How to include dependents in my insurance?",
+        "intent": "howto_add_family_member_guardme",
+        "entities": []
+      },
+      {
         "text": "Are medicine charges covered by Guard me insurance?",
+        "intent": "ask_details_of_guardme",
+        "entities": []
+      },
+      {
+        "text": "Are medicine charges covered by my insurance?",
         "intent": "ask_details_of_guardme",
         "entities": []
       },
@@ -1661,17 +1681,27 @@
         "entities": []
       },
       {
-        "text": "How can I get my Enrolment Letter?",
+        "text": "How can I apply for my Enrollment Letter?",
         "intent": "howto_get_enrollment",
         "entities": []
       },
       {
-        "text": "How can I apply for my Enrolment letter?",
+        "text": "How can I get my Enrollment Letter?",
         "intent": "howto_get_enrollment",
         "entities": []
       },
       {
-        "text": "I need my enrolment letter, what I need to do?",
+        "text": "How can I receive my Enrollment letter?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "How can I apply for a Enrollment letter?",
+        "intent": "howto_get_enrollment",
+        "entities": []
+      },
+      {
+        "text": "I need my enrollment letter, what I need to do?",
         "intent": "howto_get_enrollment",
         "entities": []
       },
@@ -1681,7 +1711,22 @@
         "entities": []
       },
       {
+        "text": "How can I get the receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
+        "text": "How can I receive the receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
         "text": "How can I get my receipts?",
+        "intent": "howto_get_receipts",
+        "entities": []
+      },
+      {
+        "text": "How can I get the receipts?",
         "intent": "howto_get_receipts",
         "entities": []
       },
@@ -1736,7 +1781,17 @@
         "entities": []
       },
       {
+        "text": "How can I increase networking?",
+        "intent": "ask_networking",
+        "entities": []
+      },
+      {
         "text": "What I have to do to expand my networking?",
+        "intent": "ask_networking",
+        "entities": []
+      },
+      {
+        "text": "How can I expand my networking?",
         "intent": "ask_networking",
         "entities": []
       },
@@ -2262,7 +2317,6 @@
         "intent": "howto_login_mylambton",
         "entities": []
       },
-
       {
         "text": "How to login myLambton email?",
         "intent": "howto_login_email",
