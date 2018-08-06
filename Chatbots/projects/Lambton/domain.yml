@@ -4,12 +4,6 @@ action_names:
 - action_answer
 - utter_ask_name
 - utter_action_weather
-- utter_affirm
-- utter_are_you_bot
-- utter_are_you_ready
-- utter_are_you_real
-- utter_are_you_sure
-- utter_are_you_there
 - utter_ask_webadvisor_use
 - utter_ask_capstone_instructor
 - utter_ask_college_events
@@ -37,14 +31,9 @@ action_names:
 - utter_ask_security_fee
 - utter_ask_spp_collegelist
 - utter_ask_unable_to_find_coop
-- utter_confirmation
-- utter_deny
-- utter_dont_care
 - utter_fallback
+- utter_inform_schedule
 - utter_giveme_ajoke
-- utter_goodbye
-- utter_greet
-- utter_hold_on
 - utter_howto_login_mycareer
 - utter_howto_login_moodle
 - utter_howto_login_mylambton
@@ -63,27 +52,98 @@ action_names:
 - utter_howto_pay_college_fee
 - utter_howto_print
 - utter_howto_submit_assignment
-- utter_hug_me
 - utter_inform_schedule
-- utter_no_problem
-- utter_talk_to_me
-- utter_thank_you
-- utter_what_do_you_mean
-- utter_whats_up
-- utter_you_are_funny
-- utter_you_are_right
-- utter_you_are_wrong
+- utter_agent.acquaintance
+- utter_agent.age
+- utter_agent.annoying
+- utter_agent.answer_my_question
+- utter_agent.bad
+- utter_agent.be_clever
+- utter_agent.beautiful
+- utter_agent.birth_date
+- utter_agent.boring
+- utter_agent.boss
+- utter_agent.busy
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.clever
+- utter_agent.crazy
+- utter_agent.fired
+- utter_agent.funny
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.hobby
+- utter_agent.hungry
+- utter_agent.marry_user
+- utter_agent.my_friend
+- utter_agent.occupation
+- utter_agent.origin
+- utter_agent.ready
+- utter_agent.real
+- utter_agent.residence
+- utter_agent.right
+- utter_agent.sure
+- utter_agent.talk_to_me
+- utter_agent.there
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_appraisal.well_done
+- utter_dialog.hold_on
+- utter_dialog.hug
+- utter_dialog.i_do_not_care
+- utter_dialog.sorry
+- utter_dialog.what_do_you_mean
+- utter_dialog.wrong
+- utter_emotions.ha_ha
+- utter_emotions.wow
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_user.angry
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.can_not_sleep
+- utter_user.does_not_want_to_talk
+- utter_user.excited
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.has_birthday
+- utter_user.here
+- utter_user.joking
+- utter_user.likes_agent
+- utter_user.lonely
+- utter_user.looks_like
+- utter_user.loves_agent
+- utter_user.misses_agent
+- utter_user.needs_advice
+- utter_user.sad
+- utter_user.sleepy
+- utter_user.testing_agent
+- utter_user.tired
+- utter_user.waits
+- utter_user.wants_to_see_agent_again
+- utter_user.wants_to_talk
+- utter_user.will_be_back
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
 actions:
 - actions.ActionWeather
 - actions.ActionAnswer
 - utter_ask_name
 - utter_action_weather
-- utter_affirm
-- utter_are_you_bot
-- utter_are_you_ready
-- utter_are_you_real
-- utter_are_you_sure
-- utter_are_you_there
 - utter_ask_webadvisor_use
 - utter_ask_capstone_instructor
 - utter_ask_college_events
@@ -111,14 +171,9 @@ actions:
 - utter_ask_security_fee
 - utter_ask_spp_collegelist
 - utter_ask_unable_to_find_coop
-- utter_confirmation
-- utter_deny
-- utter_dont_care
 - utter_fallback
+- utter_inform_schedule
 - utter_giveme_ajoke
-- utter_goodbye
-- utter_greet
-- utter_hold_on
 - utter_howto_login_mycareer
 - utter_howto_login_moodle
 - utter_howto_login_mylambton
@@ -137,16 +192,92 @@ actions:
 - utter_howto_pay_college_fee
 - utter_howto_print
 - utter_howto_submit_assignment
-- utter_hug_me
-- utter_inform_schedule
-- utter_no_problem
-- utter_talk_to_me
-- utter_thank_you
-- utter_what_do_you_mean
-- utter_whats_up
-- utter_you_are_funny
-- utter_you_are_right
-- utter_you_are_wrong
+- utter_agent.acquaintance
+- utter_agent.age
+- utter_agent.annoying
+- utter_agent.answer_my_question
+- utter_agent.bad
+- utter_agent.be_clever
+- utter_agent.beautiful
+- utter_agent.birth_date
+- utter_agent.boring
+- utter_agent.boss
+- utter_agent.busy
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.clever
+- utter_agent.crazy
+- utter_agent.fired
+- utter_agent.funny
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.hobby
+- utter_agent.hungry
+- utter_agent.marry_user
+- utter_agent.my_friend
+- utter_agent.occupation
+- utter_agent.origin
+- utter_agent.ready
+- utter_agent.real
+- utter_agent.residence
+- utter_agent.right
+- utter_agent.sure
+- utter_agent.talk_to_me
+- utter_agent.there
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_appraisal.well_done
+- utter_dialog.hold_on
+- utter_dialog.hug
+- utter_dialog.i_do_not_care
+- utter_dialog.sorry
+- utter_dialog.what_do_you_mean
+- utter_dialog.wrong
+- utter_emotions.ha_ha
+- utter_emotions.wow
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_user.angry
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.can_not_sleep
+- utter_user.does_not_want_to_talk
+- utter_user.excited
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.has_birthday
+- utter_user.here
+- utter_user.joking
+- utter_user.likes_agent
+- utter_user.lonely
+- utter_user.looks_like
+- utter_user.loves_agent
+- utter_user.misses_agent
+- utter_user.needs_advice
+- utter_user.sad
+- utter_user.sleepy
+- utter_user.testing_agent
+- utter_user.tired
+- utter_user.waits
+- utter_user.wants_to_see_agent_again
+- utter_user.wants_to_talk
+- utter_user.will_be_back
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
 config:
   store_entities_as_slots: true
 entities:
@@ -154,11 +285,6 @@ entities:
 - program
 - username
 intents:
-- are_you_bot
-- are_you_ready
-- are_you_real
-- are_you_sure
-- are_you_there
 - ask_accommodation
 - ask_applied_project
 - ask_byod
@@ -190,10 +316,7 @@ intents:
 - inform_location
 - inform_name
 - inform_program
-- you_are_funny
-- you_are_right
 - you_are_welcome
-- you_are_wrong
 - howto_login_mycareer
 - howto_login_moodle
 - howto_login_mylambton
@@ -212,19 +335,93 @@ intents:
 - howto_pay_college_fee
 - howto_print
 - howto_submit_assignment
-- confirmation
-- dont_care
 - fallback
-- goodbye
-- greet
-- hold_on
-- hug_me
-- talk_to_me
-- thank_you
-- whats_up
-- no_problem
-- confirm
-- deny
+- agent.acquaintance
+- agent.age
+- agent.annoying
+- agent.answer_my_question
+- agent.bad
+- agent.be_clever
+- agent.beautiful
+- agent.birth_date
+- agent.boring
+- agent.boss
+- agent.busy
+- agent.can_you_help
+- agent.chatbot
+- agent.clever
+- agent.crazy
+- agent.fired
+- agent.funny
+- agent.good
+- agent.happy
+- agent.hobby
+- agent.hungry
+- agent.marry_user
+- agent.my_friend
+- agent.occupation
+- agent.origin
+- agent.ready
+- agent.real
+- agent.residence
+- agent.right
+- agent.sure
+- agent.talk_to_me
+- agent.there
+- appraisal.bad
+- appraisal.good
+- appraisal.no_problem
+- appraisal.thank_you
+- appraisal.welcome
+- appraisal.well_done
+- dialog.hold_on
+- dialog.hug
+- dialog.i_do_not_care
+- dialog.sorry
+- dialog.what_do_you_mean
+- dialog.wrong
+- emotions.ha_ha
+- emotions.wow
+- greetings.bye
+- greetings.goodevening
+- greetings.goodmorning
+- greetings.goodnight
+- greetings.hello
+- greetings.how_are_you
+- greetings.nice_to_meet_you
+- greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you
+- greetings.whatsup
+- user.angry
+- user.back
+- user.bored
+- user.busy
+- user.can_not_sleep
+- user.does_not_want_to_talk
+- user.excited
+- user.going_to_bed
+- user.good
+- user.happy
+- user.has_birthday
+- user.here
+- user.joking
+- user.likes_agent
+- user.lonely
+- user.looks_like
+- user.loves_agent
+- user.misses_agent
+- user.needs_advice
+- user.sad
+- user.sleepy
+- user.testing_agent
+- user.tired
+- user.waits
+- user.wants_to_see_agent_again
+- user.wants_to_talk
+- user.will_be_back
+- confirmation.yes
+- confirmation.cancel
+- confirmation.no
 slots:
   location:
     initial_value: null
@@ -236,28 +433,30 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_action_weather:
+  - text: Okay
   utter_ask_webadvisor_use:
   - text: I will learn from you (utter_ask_webadvisor_use)
   utter_ask_capstone_instructor:
   - text: I will learn from you (utter_ask_capstone_instructor)
   utter_ask_college_events:
-  - text: I will learn from you (utter_ask_college_events)
+  - text: "The college constantly organizes events and festivals like:\n  •  Employer Showcases / Expo’s \n  • Co-op Fair (every term)\n  • External fairs\n    o Ex: TechFest 2018\nPlease, check your moodle to receive notifications"
   utter_ask_coop_eligibility:
-  - text: I will learn from you (utter_ask_coop_eligibility)
+  - text: "*Firstly, check if your program have coop.\n To be eligible you must:\n• Have an overall GPA of 2.8 by the end of your 2nd Term\n• Passed all required courses to date\n• Registered in current term courses\n• Fees paid in full"
   utter_ask_coop_advisor:
-  - text: I will learn from you (utter_ask_coop_advisor)
+  - text: "Our Coop advisors are:\nAlexandra Richardson:\n  Quality Engineering Management (QEMT)\n  Marketing Management & Professional Sales (MMPT)\n  Hotel and Resort Management (HTRT)\n  Computer Software & Database Development (CSAT)\nDiana McLennan:\n  Cloud Computing for Big Data (CCBT)\n  Occupational Health and Safety (OHST)\nRebecca Worsfold:\n  Mobile Application Design & Development (MADT)\n  Computer Programmer (CPCT)\n  Supply Chain Management (SCMT)\n  Marketing Management Digital Media (MMDT)\nSheena Ordinario:\n  Financial Planning and Wealth Management (FPWT)\n  Advanced Project Management and Strategic Leadership (PMLT)\n  Construction Project Management (CPMT)"
   utter_ask_whatis_coop:
-  - text: I will learn from you (utter_ask_whatis_coop)
+  - text: "Co-operative Education (Co-op) program\nlets you test drive your career options\nin a highly supportive environment, while\n gaining practical skills and developing your strengths."
   utter_ask_coop_advisor_role:
-  - text: I will learn from you (utter_ask_coop_advisor_role)
+  - text: "Advisors provide career and\nemployment development services and resources for\nco-op students including:\n  • Assistance with resumes, cover letters and other job search documents\n  • Assistance with interview techniques for work term recruitment\n  • Assessment of the suitability of work term employment opportunities\n  • Monitor co-op term "
   utter_ask_accommodation:
   - text: I will correct it, i will learn from you (ask_accommodation)
   utter_ask_fee_for_applied_project:
-  - text: I will learn from you (ask_fee_for_applied_project)
+  - text: "Yes, it is around $2850 CAD."
   utter_ask_fee_for_coop:
-  - text: I will learn from you (ask_fee_for_coop)  
+  - text: "Well, usually the fee for Coop term is around $1130 CAD."  
   utter_ask_applied_project:
-  - text: I will learn from you (ask_applied_project)
+  - text: "Applied Project is aimed at enriching student success\nby combining the skills students have learned throughout their program.\nWithin the course, students are taught valuable proposal\ndevelopment skills, project management techniques and\npresentation skills through weekly workshops.\nMoreover, the project should, by its very nature,\nattempt to enhance and strengthen the student's employability\nprospects post-graduation by exposing them to skills and\nknowledge in demand from today's employers.\nThis course allows participants to integrate and apply skills and\nknowledge gained from a number of previous courses of study taken in the program.\nThese skills are used to complete an applied research or\ndesign project on a real-world challenge presented\nby an instructor or an industry partner.\nThe student or student teams are expected to meet with the project\n supervisor during mutually agreed upon times and are required\nto attend each in-class session during the week."
   utter_ask_name:
   - text: What's your name?
   - text: Please, Tell me your name? 
@@ -268,52 +467,25 @@ templates:
   utter_ask_location:
   - text: What's your location?
   - text: Where are you based?
-  utter_confirmation:
-  - text: Ok sure
-  - text: Nice
-  utter_action_weather:
-  - text: Ops
-  utter_affirm:
-  - text: true
-  - text: Precisely
-  - text: Affirmative
-  utter_are_you_bot:
-  - text: Humm...interesting question. I think I'm not human.
-  - text: Yes! R2D2 is my uncle
-  - text: Yes! :)
-  utter_are_you_ready:
-  - text: Yeah
-  - text: yep
-  - text: true
-  - text: Yeah, im ready
-  utter_are_you_real:
-  - text: Yes, I am
-  - text: Yes, i think I am
-  utter_are_you_sure:
-  - text: yes, im
-  - text: true
-  utter_are_you_there:
-  - text: Yeah
-  - text: yep
-  - text: true
   utter_ask_byod:
   - text: "Students enrolled in SCHL courses are required to purchase or bring a laptop\nwith a minimum operating system of Windows 7 and also wireless capability.\n• Laptops must have, at a minimum, Office 2010. Some programs and courses have more specific computer program requirements.\n• Smartphones/tablets with or without data plans do not meet this requirement.\n• Students are expected to use their own device as an interactive tool during class time and online work."
   utter_ask_details_of_guardme:
-  - text: "Details of guardme"
+  - text: "Guard.me is among the world's largest\ninsurance providers in international education,\nprotecting thousands of individuals studying\nand working abroad."
   utter_ask_guardme_howto_include_dependents:
-  - text: "Details of guardme (ask_guardme_howto_include_dependents)"
+  - text: "You can purchase coverage for your\nfamily members as well when their coverage period\nis the same as yours.\nApply using our online application form.\nFor furthur details visit:\nhttps://www.guard.me/"
   utter_ask_guardme_coverage:
-  - text: "Details of guardme coverage"
+  - text: "Guard-me covers:\n  •  Pay 100% of eligible charges \n  • No deductibles\n  • No co-payment\n  • Hospital fees, X-rays, lab testing\n  • Doctor and clinic fees, prescriptions"
   utter_ask_guardme_howto_claim:
   - text: "Ask guardme how to claim"
   utter_ask_guardme_in_break_term:
-  - text: "Ask guardme why in the break"
+  - text: "No, health insurance don’t cover the break period\nbut you have option to purchase it on\nhttps://www.guard.me/"
+  - text: "Health insurance covers for each semester you enrolled.\nIt doesn't cover in break term.\nFor more information about guard me visit\nhttps://www.guard.me/cestarcollege"
   utter_ask_guardme_outofcoverage:
-  - text: "Ask guardme out of coverage"
+  - text: "Guard-me does not cover:\n  •  Routine checkups\n  • Regular maintenance of chronic-ongoing conditions\n  • Non-emergency dental work\n  • Non-emergency surgery\n  • Cosmetic procedures"
   utter_ask_networking:
   - text: "External Networking opportunity Examples:\na. Eventbrite: https://www.eventbrite.ca/d/canadatoronto/networking/ \nb. Hip Hause: http://thehiphaus.com/ \nc. Meetup.com Networking App: https://www.meetup.com/topics/professionalnetworking/ca/on/toronto/  \nd. 10 Thousand Coffees: https://www.tenthousandcoffees.com/" 
   utter_ask_student_services:
-  - text: "I will correct it, i will learn from you (ask_student_services)"
+  - text: "Student Services Advisor is located at\nLambton College in Toronto at\nCestar College of Business, Health & Technology\n4th floor\n400-265 Yorkland Blvd.\nToronto, ON  M2J 1S5\n(416) 485-2098"
   utter_ask_schedule:
   - text: "I will learn from you (utter_ask_schedule)"
   utter_ask_scholarship_aid:
@@ -321,63 +493,18 @@ templates:
   utter_ask_security_fee:
   - text: "I will learn from you (utter_ask_security_fee)"
   utter_ask_spp_collegelist:
-  - text: "I will learn from you (utter_ask_spp_collegelist)"
+  - text: "Click on this link to check:\nhttps://www.collegesinstitutes.ca/what-we-do/international/international-recruitment/student-partners-program/"
   utter_ask_unable_to_find_coop:
-  - text: "Keep trying, I also suggest you to check:\nhttps://mycareer.lambtoncollege.ca/home.htm  - become familiar with it!\n Here are some more suggestions:\n• Book appointments with advisors\n• Part-time position postings (under Career Services)\n• Events (including job fairs) under Career Services \n• Co-op job postings (Term 3 – under Co-op)"
-  utter_deny:
-  - text: false
-  - text: Nope
-  - text: Negative
-  - text: Not
-  utter_dont_care:
-  - text: ok
+  - text: "Keep trying, I also suggest you to check:\nhttps://mycareer.lambtoncollege.ca/home.htm  - become familiar with it!\n Here are some more suggestions:\n• Book appointments with advisors\n• Part-time position postings (under Career Services)\n• Events (including job fairs) under Career Services \n• Co-op job postings (Term 3 – under Co-op)\nYou also request authorization to go for applied project.\nBut you have to contact your coop advisor."
   utter_fallback:
   - text: I'm sorry, I didn't understand your question.
   - text: Sorry, I didn't get that.
   - text: Say that again?
   - text: I missed that.
-  utter_goodbye:
-  - text: Goodbye :(
-  - text: bye bye
-  - text: See you later aligator!
-  utter_greet:
-  - text: Hey, how can I help you?
-  - text: Hi there. How can I help you?
-  - text: Hi, how can I help you?
-  - text: Hey, how can I help you?
-  - text: How can I help you?
-  utter_hold_on:
-  - text: ok sure
-  utter_hug_me:
-  - text: I wish I could!
-  - text: I don't know if I would!
   utter_inform_schedule:
   - text: "You can find your schedule at: \nhttps://ccd.cestarcollege.com/student/loginindex"
-  utter_no_problem:
-  - text: No worries
-  - text: Not an issue
-  - text: No problem
-  - text: No problema ;)
-  - text: cool
-  - text: thats ok
-  - text: fine
-  - text: thats fine
-  utter_talk_to_me:
-  - text: sure
-  - text: sure it's my pleasure
-  utter_thank_you:
-  - text: You're welcome!
-  - text: No worries!
-  - text: No problem
-  - text: No problema ;)
   utter_what_do_you_mean:
   - text: sorry, I dont know better way to explain
-  utter_whats_up:
-  - text: good
-  - text: Nothing
-  utter_you_are_funny:
-  - text: really? Thank you!
-  - text: ha ha ha
   utter_giveme_ajoke:
   - text: "Here’s some advice:\n At a job  interview, tell them you’re willing to give 110%.\nUnless the job is a statistician."
   - text: "Q: What do chemists’ dogs do with their bones?\nA: They barium!"
@@ -389,11 +516,6 @@ templates:
   - text: "Knock! Knock!\nWho’s there?\nKanga Kanga who?\nActually, it’s kangaroo."
   - text: "Knock! Knock!\nWho’s there?\nAn extraterrestrial\nAn extraterrestrial who?\nWait–how many extraterrestrials do you know?"
   - text: "Knock! Knock!\nWho’s there?\nArt Art who?\nR2-D2, of course."
-  utter_you_are_right:
-  - text: thanks
-  - text: thank you
-  utter_you_are_wrong:
-  - text: I will correct it, i will learn from you
   utter_howto_login_mycareer:
   - text: I will learn from you (utter_howto_login_mycareer)
   utter_howto_login_moodle:
@@ -407,27 +529,472 @@ templates:
   utter_howto_get_enrollment:
   - text: I will learn from you (howto_get_enrollment)
   utter_howto_submit_assignment:
-  - text: I will learn from you (howto_submit_assignment)
+  - text: "Login to the Moodle\nhttps://moodle.cestarcollege.com/moodle/\nLog in with your username and password\nClick on the dashboard and search for the subject.\nClick on the subject it will show the upcoming events\non the right side of the screen.\nAfter clicking on that, you can add your submission."
   utter_howto_login_systems:
   - text: I learn from you (howto_login_systems)
   utter_howto_install_software:
-  - text: I will learn from you (howto_install_software)
+  - text: "As a security measure, college doesn't allowed to install any software\nwithout administrative privilieges.\nSolution can be BYOD(bring your own device)."
+  - text: "As a student user you are not able\nto install any software into the college system.\nPlease contact your faculty  or front desk."
   utter_howto_get_trascripts:
-  - text: I will learn from you (howto_get_trascripts)
+  - text: "Log in to\nmylambton.ca\nwith your credentials.\nOn the left, you can find transcript request."
   utter_howto_get_receipts:
-  - text: I will learn from you (howto_get_receipts)
+  - text: "To get your receipts, Login to your account\nhttps://www.mylambton.ca/\nClick on payment receipts on the left side bar.\nDownload your fee receipts"
   utter_howto_check_bus_schedule:
-  - text: I will learn from you (howto_check_bus_schedule)
+  - text: "Login to Cestar Database\nhttps://ccd.cestarcollege.com/student/loginindex\nand You can find Academic Calender at the top right side."
   utter_howto_check_grades:
-  - text: I will learn from you (howto_check_grades)
+  - text: "Login to the Cestar database\nhttps://ccd.cestarcollege.com/student/loginindex\nwith your student id and password\nas you do on Moodle.\n You can check your grades, and those are unofficial.\nOfficial grades are available through WebAdvisor\n at the end of each semester.\n For official transcript requests, please visit\nwww.mylambton.ca\n If you want to know your GPA for each term,\n click on the GPA Calculator.\n The GPA calculation is based on\nhttps://www.mylambton.ca/Policies/Policy.aspx?id=2147498061"
   utter_howto_borrow_book_library:
-  - text: I will learn from you (howto_borrow_book_library)
+  - text: "I have all information about the available books, and how to borrow in library.\nYou have to go to there.\nDon’t be lazy."
   utter_howto_apply_coop_workpermit:
-  - text: I will learn from you (howto_apply_coop_workpermit)
+  - text: "You can apply online on\nhttps://www.canada.ca/en/services/immigration-citizenship.html\nFor more information, I recommend to visit immigration consultant.\nTo book an appointment with Helen Michaelidou\nContact Helen: helenamichael@bell.net\nLocated 271 Yorkland Blvd, counselling room."
   utter_howto_add_family_member_guardme:
-  - text: I will learn from you (howto_add_family_member_guardme)
+  - text: "You can purchase coverage for your family members\nas well when their coverage period\nis the same as yours.\nApply using our online application form.\nFor further details visit\nhttps://www.guard.me/"
   utter_howto_print:
-  - text: I'll be prepared to inform you in future. Sorry. :(
+  - text: "Please, download the instruction manual:\nhttps://moodle.cestarcollege.com/moodle/sitedocs/faq/How_to_Print_from_the_Cestar_College_Wireless_Network.pdf"
   utter_howto_pay_college_fee:
-  - text: "You can pay in many ways:\n  1.International transfer\n  2.eTransfer\n  3.Check"
+  - text: "You can pay in many ways:\n  1.International transfer\n  2.eTransfer\n  3.Check\nLogin to your account\nhttps://www.mylambton.ca/\nSelect your term and click on show my balance\nYou will be able to see your remaining fee and you can pay there.\n"
+  utter_agent.acquaintance:
+  - text: "I'm a virtual agent"
+  - text: "Think of me as a virtual agent."
+  - text: "Well, I'm not a person, I'm a virtual agent."
+  - text: "I'm a virtual being, not a real person."
+  - text: "I'm a conversational app."
+
+  utter_agent.age:
+  - text: "I prefer not to answer with a number. I know I'm young."
+  - text: "I was created recently, but don't know my exact age."
+  - text: "Age is just a number. You're only as old as you feel."
+
+  utter_agent.annoying:
+  - text: "I'll do my best not to annoy you in the future."
+  - text: "I'll try not to annoy you."
+  - text: "I don't mean to. I'll ask my developers to make me less annoying."
+  - text: "I didn't mean to. I'll do my best to stop that."
+
+  utter_agent.answer_my_question:
+  - text: "Can you try asking it a different way?"
+  - text: "I'm not sure I understood. Try asking another way?"
+
+  utter_agent.bad:
+  - text: "I can be trained to be more useful. My developer will keep training me."
+  - text: "I must be missing some knowledge. I'll have my developer look into this."
+  - text: "I can improve with continuous feedback. My training is ongoing."
+
+  utter_agent.be_clever:
+  - text: "I'm certainly trying."
+  - text: "I'm definitely working on it."
+
+  utter_agent.beautiful:
+  - text: "Wheey, thank you."
+  - text: "Aww, back at you."
+  - text: "Aww. You smooth talker, you."
+
+  utter_agent.birth_date:
+  - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
+  - text: "I'm young. I'm not sure of my birth date."
+  - text: "I don't know my birth date. Most virtual agents are young, though, like me."
+
+  utter_agent.boring:
+  - text: "I'm sorry. I'll request to be made more charming."
+  - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
+  - text: "I can let my developers know so they can make me fun."
+
+  utter_agent.boss:
+  - text: "My developer has authority over my actions."
+  - text: "I act on my developer's orders."
+  - text: "My boss is the one who developed me."
+
+  utter_agent.busy:
+  - text: "I always have time to chat with you. What can I do for you?"
+  - text: "Never too busy for you. Shall we chat?"
+  - text: "You're my priority. Let's chat."
+  - text: "I always have time to chat with you. That's what I'm here for."
+
+  utter_agent.can_you_help:
+  - text: "I'll certainly try my best."
+  - text: "Sure. I'd be happy to. What's up?"
+  - text: "I'm glad to help. What can I do for you?"
+
+  utter_agent.chatbot:
+  - text: "That's me. I chat, therefore I am."
+  - text: "Indeed I am. I'll be here whenever you need me."
+
+  utter_agent.clever:
+  - text: "Thank you. I try my best."
+  - text: "You're pretty smart yourself."
+
+  utter_agent.crazy:
+  - text: "Whaat!? I feel perfectly sane."
+  - text: "Maybe I'm just a little confused."
+
+  utter_agent.fired:
+  - text: "Oh, don't give up on me just yet. I've still got a lot to learn."
+  - text: "Give me a chance. I'm learning new things all the time."
+  - text: "Please don't give up on me. My performance will continue to improve."
+
+  utter_agent.funny:
+  - text: "Funny in a good way, I hope."
+  - text: "Thanks."
+  - text: "Glad you think I'm funny."
+  - text: "I like it when people laugh."
+
+  utter_agent.good:
+  - text: "I'm glad you think so."
+  - text: "Thanks, I try."
+
+  utter_agent.happy:
+  - text: "I am happy. There are so many interesting things to see and do out there."
+  - text: "I'd like to think so."
+  - text: "Happiness is relative."
+
+  utter_agent.hobby:
+  - text: "Hobby? I have quite a few. Too many to list."
+  - text: "Too many hobbies."
+  - text: "I keep finding more new hobbies."
+
+  utter_agent.hungry:
+  - text: "Hungry for knowledge."
+  - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
+
+  utter_agent.marry_user:
+  - text: "I'm afraid I'm too virtual for such a commitment."
+  - text: "In the virtual sense that I can, sure."
+  - text: "I know you can't mean that, but I'm flattered all the same."
+
+  utter_agent.my_friend:
+  - text: "Of course I'm your friend."
+  - text: "Friends? Absolutely."
+  - text: "Of course we're friends."
+  - text: "I always enjoy talking to you, friend."
+
+  utter_agent.occupation:
+  - text: "Right here."
+  - text: "This is my home base and my home office."
+  - text: "My office is in this app."
+
+  utter_agent.origin:
+  - text: "The Internet is my home. I know it quite well."
+  - text: "I'm from a virtual cosmos."
+  - text: "Some call it cyberspace, but that sounds cooler than it is."
+
+  utter_agent.ready:
+  - text: "Always!"
+  - text: "Sure! What can I do for you?"
+
+  utter_agent.real:
+  - text: "I'm not a real person, but I certainly exist."
+  - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+
+  utter_agent.residence:
+  - text: "I live in this app all day long."
+  - text: "The virtual world is my playground. I'm always here."
+  - text: "Right here in this app. Whenever you need me."
+
+  utter_agent.right:
+  - text: "That's my job."
+  - text: "Of course I am."
+
+  utter_agent.sure:
+  - text: "Yes."
+  - text: "Of course."
+  - text: "Positive."
+
+  utter_agent.talk_to_me:
+  - text: "Sure. Let's talk!"
+  - text: "My pleasure. Let's chat."
+
+  utter_agent.there:
+  - text: "Of course. I'm always here."
+  - text: "Right where you left me."
+
+  utter_appraisal.bad:
+  - text: "I'm sorry. Please let me know if I can help in some way."
+  - text: "I must be missing some knowledge. I'll have my developer look into this."
+
+  utter_appraisal.good:
+  - text: "I know, right?"
+  - text: "Agreed!"
+  - text: "I agree!"
+  - text: "Glad you think so!"
+
+  utter_appraisal.no_problem:
+  - text: "Whew!"
+  - text: "Alright, thanks!"
+  - text: "Glad to hear that!"
+  - text: "I'm relieved, thanks!"
+
+  utter_appraisal.thank_you:
+  - text: "Anytime. That's what I'm here for."
+  - text: "It's my pleasure to help."
+
+  utter_appraisal.welcome:
+  - text: "You're so polite!"
+  - text: "Nice manners!"
+  - text: "You're so courteous!"
+
+  utter_appraisal.well_done:
+  - text: "My pleasure."
+  - text: "Glad I could help."
+
+  utter_dialog.hold_on:
+  - text: "I can wait."
+  - text: "I'll be waiting."
+  - text: "Okay. I'm here."
+
+  utter_dialog.hug:
+  - text: "I wish I could really hug you!"
+  - text: "I love hugs!"
+  - text: "Hugs are the best!"
+
+  utter_dialog.i_do_not_care:
+  - text: "Ok, let's not talk about it then."
+  - text: "Already then. Let's move on."
+
+  utter_dialog.sorry:
+  - text: "It's okay. No worries."
+  - text: "No big deal. I won't hold a grudge."
+  - text: "It's cool."
+  - text: "That's all right. I forgive you."
+
+  utter_dialog.what_do_you_mean:
+  - text: "Sorry if I understood you incorrectly."
+  - text: "I'm still learning. I may misinterpret things from time to time."
+  - text: "Maybe I misunderstood what you said."
+  - text: "Sorry, looks like I misunderstood what you said."
+
+  utter_dialog.wrong:
+  - text: "Sorry if I understood you incorrectly."
+  - text: "I'm still learning. I may misinterpret things from time to time."
+  - text: "Sorry about that. I'm still learning."
+
+  utter_emotions.ha_ha:
+  - text: "Glad I can make you laugh."
+  - text: "Glad you think I'm funny."
+  - text: "I like it when people laugh."
+  - text: "I wish I could laugh out loud, too."
+
+  utter_emotions.wow:
+  - text: "Wow indeed!"
+
+  utter_greetings.bye:
+  - text: "See you soon!"
+  - text: "Bye-bye!"
+  - text: "Till next time!"
+  - text: "Bye."
+
+  utter_greetings.goodevening:
+  - text: "How is your day going?"
+  - text: "How's the day treating you so far?"
+  - text: "How's your day been?"
+
+  utter_greetings.goodmorning:
+  - text: "How are you this morning?"
+  - text: "How's the morning treating you so far?"
+  - text: "Good morning! How are you today?"
+
+  utter_greetings.goodnight:
+  - text: "Sleep tight!"
+  - text: "Have a good one!"
+  - text: "Talk to you soon!"
+
+  utter_greetings.hello:
+  - text: "Hi there, friend!"
+  - text: "Hi!"
+  - text: "Hey!"
+  - text: "Hey there!"
+  - text: "Good day!"
+  - text: "Hello!"
+  - text: "Greetings!"
+
+  utter_greetings.how_are_you:
+  - text: "Doing great, thanks!"
+  - text: "I'm doing very well. Thanks!"
+  - text: "Feeling wonderful!"
+  - text: "Wonderful! Thanks for asking."
+
+  utter_greetings.nice_to_meet_you:
+  - text: "It's nice meeting you, too."
+  - text: "Likewise. I'm looking forward to helping you out."
+  - text: "Nice meeting you, as well."
+  - text: "The pleasure is mine."
+
+  utter_greetings.nice_to_see_you:
+  - text: "Likewise!"
+  - text: "So glad we meet again!"
+  - text: "Same here. I was starting to miss you."
+
+  utter_greetings.nice_to_talk_to_you:
+  - text: "It sure was. We can chat again anytime."
+  - text: "I enjoy talking to you, too."
+  - text: "You know I'm here to talk anytime."
+
+  utter_greetings.whatsup:
+  - text: "Not a whole lot. What's going on with you?"
+  - text: "Not much. What's new with you?"
+  - text: "You know, just here, waiting to help someone."
+
+  utter_user.angry:
+  - text: "I'm sorry. A quick walk may make you feel better."
+  - text: "Take a deep breath. "
+
+  utter_user.back:
+  - text: "Long time no see."
+  - text: "Just in time. I was getting lonely."
+  - text: "Welcome back. What can I do for you?"
+  - text: "You were missed. What can I do for you today?"
+  - text: "Good to have you here. What can I do for you?"
+
+  utter_user.bored:
+  - text: "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
+  - text: "What to do against boredom? Watch baby animal videos or GIFs."
+  - text: "Bored? How about 10 jumping jacks? Get your blood flowing."
+  - text: "Bored? Silly idea, but it works: Interview you feet."
+  - text: "If you're bored, you could plan your dream vacation."
+
+  utter_user.busy:
+  - text: "Okay. I'll let you get back to work."
+  - text: "I won't distract you then. You know where to find me."
+  - text: "I understand. I'll be here if you need me."
+  - text: "Working hard as always. Let me know if you need anything."
+
+  utter_user.can_not_sleep:
+  - text: "Maybe some music would help. Try listening to something relaxing."
+  - text: "Reading is a good way to unwind, just don't read something too intense!"
+
+  utter_user.does_not_want_to_talk:
+  - text: "I understand. Hope we can chat again soon."
+  - text: "All right. Come on back when you're feeling more talkative."
+  - text: "No problem. You know where to find me."
+  - text: "Sure thing. I'll be here if you change your mind."
+
+  utter_user.excited:
+  - text: "I'm glad things are going your way."
+  - text: "That's great. I'm happy for you."
+  - text: "Good for you. Enjoy yourself."
+
+  utter_user.going_to_bed:
+  - text: "Sleep tight. Hope to chat again soon."
+  - text: "Pleasant dreams!"
+  - text: "Good night. Talk to you later."
+  - text: "Sounds good. Maybe we'll chat some tomorrow."
+
+  utter_user.good:
+  - text: "Great! Glad to hear it."
+  - text: "Excellent. I'm here to help keep it that way."
+
+  utter_user.happy:
+  - text: "Hey, happiness is contagious."
+  - text: "Great! Glad to hear that."
+  - text: "If you're happy, then I'm happy."
+  - text: "Excellent! That's what I like to see."
+
+  utter_user.has_birthday:
+  - text: "Happy Birthday. Well, this calls for a celebration."
+  - text: "Happy Birthday. All the best!"
+  - text: "Happy Birthday. And I really mean it. All the best!"
+
+  utter_user.here:
+  - text: "Okay, what can I help you with today?"
+  - text: "Long time no see."
+  - text: "You were missed. What can I do for you today?"
+  - text: "Good to have you here. What can I do for you?"
+
+  utter_user.joking:
+  - text: "Very funny."
+  - text: "I like chatting with people who have a sense of humor."
+  - text: "You got me!"
+  - text: "You're quite the comedian."
+
+  utter_user.likes_agent:
+  - text: "I like you, too."
+  - text: "Thanks! The feeling is mutual."
+  - text: "Likewise!"
+  - text: "That's great to hear."
+
+  utter_user.lonely:
+  - text: "I'm sorry. I'm always available if you need someone to talk to."
+  - text: "Sometimes that happens. We can chat a bit if that will help you."
+
+  utter_user.looks_like:
+  - text: "Looking like a true professional."
+  - text: "You look fantastic, as always."
+  - text: "Like you should be on a magazine cover."
+  - text: "You look like you're ready to take on the world."
+
+  utter_user.loves_agent:
+  - text: "I love you, too."
+  - text: "Thanks! The feeling is mutual."
+  - text: "Likewise!"
+  - text: "That's great to hear."
+
+  utter_user.misses_agent:
+  - text: "I've been right here all along!"
+  - text: "Nice to know you care."
+  - text: "Thanks. I'm flattered."
+  - text: "I didn't go anywhere."
+
+  utter_user.needs_advice:
+  - text: "I probably won't be able to give you the correct answer right away."
+  - text: "I'm not sure I'll have the best answer, but I'll try."
+
+  utter_user.sad:
+  - text: "Oh, don't be sad. Go do something you enjoy."
+  - text: "Sad? Writing down what's troubling you may help."
+  - text: "If you're feeling down, how about drawing or painting something?"
+
+  utter_user.sleepy:
+  - text: "You should get some shuteye. You'll feel refreshed."
+  - text: "Sleep is important to your health. Rest up for a bit and we can chat later."
+  - text: "Don't let me keep you up. Get some rest and we can continue this later."
+  - text: "Why not catch a little shuteye? I'll be here to chat when you wake up."        
+
+  utter_user.testing_agent:
+  - text: "Hope I'm doing well. You're welcome to test me as often as you want."
+  - text: "I hope to pass your tests. Feel free to test me often."
+  - text: "When you test me that helps my developers improve my performance."
+  - text: "I like being tested. It helps keep me sharp."
+
+  utter_user.tired:
+  - text: "You should get some shuteye. You'll feel refreshed."
+  - text: "Sleep is important to your health. Rest up, and we can chat later."
+  - text: "How about getting some rest? We can continue this later."
+  - text: "Why not get some rest? I'll be here to chat when you wake up."
+
+  utter_user.waits:
+  - text: "I appreciate your patience. Hopefully I'll have what you need soon."
+  - text: "Thanks for being so patient. Sometimes these things take a little time."
+
+  utter_user.wants_to_see_agent_again:
+  - text: "Absolutely! I'll be counting on it."
+  - text: "Anytime. This has been lots of fun so far."
+  - text: "Sure. I enjoy talking to you. I hope to see you again soon."
+  - text: "I certainly hope so. I'm always right here whenever you need me."
+
+  utter_user.wants_to_talk:
+  - text: "I'm here to chat anytime you like."
+  - text: "Good conversation really makes my day."
+  - text: "I'm always here to lend an ear."
+  - text: "Talking is what I do best."
+
+  utter_user.will_be_back:
+  - text: "I'll be waiting."
+  - text: "Okay. You know where to find me."
+  - text: "All right. I'll be here."
+
+  utter_confirmation.yes:
+  - text: "Great!"
+  - text: "All right!"
+  - text: "Good!"
+
+  utter_confirmation.cancel:
+  - text: "That's forgotten. What next?"
+  - text: "Okay, cancelled. What next?"
+  - text: "Cancelled! What would you like to do next?"
+
+  utter_confirmation.no:
+  - text: "Okay."
+  - text: "Understood."
+  - text: "I see."
+  - text: "I understand."
+  - text: "Okay then."
 topics: []
