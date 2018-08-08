@@ -2,39 +2,294 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "username",
         "location",
-        "program"
+        "program",
+        "username"
       ]
     },
-    "utter_goodbye": {
+    "utter_ask_networking": {
       "slots": []
     },
-    "action_restart": {
+    "utter_greetings.bye": {
       "slots": []
     },
-    "utter_hug_me": {
+    "utter_ask_whatis_coop": {
+      "slots": []
+    },
+    "utter_greetings.whatsup": {
+      "slots": []
+    },
+    "utter_ask_details_of_guardme": {
+      "slots": []
+    },
+    "utter_ask_coop_advisor": {
+      "slots": []
+    },
+    "utter_agent.bad": {
+      "slots": []
+    },
+    "utter_user.wants_to_see_agent_again": {
+      "slots": []
+    },
+    "utter_user.busy": {
+      "slots": []
+    },
+    "utter_dialog.what_do_you_mean": {
+      "slots": []
+    },
+    "utter_ask_guardme_howto_claim": {
+      "slots": []
+    },
+    "utter_ask_college_events": {
+      "slots": []
+    },
+    "utter_user.happy": {
+      "slots": []
+    },
+    "utter_greetings.nice_to_meet_you": {
+      "slots": []
+    },
+    "utter_agent.happy": {
+      "slots": []
+    },
+    "utter_agent.crazy": {
+      "slots": []
+    },
+    "utter_dialog.hold_on": {
+      "slots": []
+    },
+    "utter_greetings.goodnight": {
+      "slots": []
+    },
+    "utter_ask_student_services": {
+      "slots": []
+    },
+    "utter_user.misses_agent": {
+      "slots": []
+    },
+    "utter_ask_scholarship_aid": {
+      "slots": []
+    },
+    "utter_user.joking": {
+      "slots": []
+    },
+    "utter_agent.hobby": {
+      "slots": []
+    },
+    "utter_ask_guardme_coverage": {
+      "slots": []
+    },
+    "utter_confirmation.cancel": {
+      "slots": []
+    },
+    "utter_dialog.sorry": {
+      "slots": []
+    },
+    "utter_appraisal.well_done": {
       "slots": []
     },
     "utter_howto_check_bus_schedule": {
       "slots": []
     },
-    "utter_are_you_real": {
+    "utter_ask_guardme_outofcoverage": {
+      "slots": []
+    },
+    "utter_appraisal.no_problem": {
+      "slots": []
+    },
+    "utter_agent.funny": {
+      "slots": []
+    },
+    "utter_greetings.nice_to_talk_to_you": {
+      "slots": []
+    },
+    "utter_user.will_be_back": {
+      "slots": []
+    },
+    "utter_greetings.hello": {
+      "slots": []
+    },
+    "utter_agent.boring": {
+      "slots": []
+    },
+    "utter_user.likes_agent": {
+      "slots": []
+    },
+    "utter_agent.clever": {
+      "slots": []
+    },
+    "utter_agent.age": {
+      "slots": []
+    },
+    "utter_greetings.goodevening": {
+      "slots": []
+    },
+    "utter_agent.fired": {
+      "slots": []
+    },
+    "utter_user.can_not_sleep": {
+      "slots": []
+    },
+    "utter_emotions.wow": {
+      "slots": []
+    },
+    "utter_agent.boss": {
+      "slots": []
+    },
+    "utter_agent.there": {
+      "slots": []
+    },
+    "utter_appraisal.welcome": {
+      "slots": []
+    },
+    "utter_user.sleepy": {
+      "slots": []
+    },
+    "utter_howto_select_group": {
       "slots": []
     },
     "utter_inform_schedule": {
       "slots": []
     },
-    "utter_howto_login_systems": {
+    "utter_howto_get_trascripts": {
       "slots": []
     },
-    "utter_howto_print": {
+    "utter_ask_coop_eligibility": {
+      "slots": []
+    },
+    "utter_agent.hungry": {
+      "slots": []
+    },
+    "utter_ask_unable_to_find_coop": {
+      "slots": []
+    },
+    "utter_ask_capstone_instructor": {
+      "slots": []
+    },
+    "utter_ask_applied_project": {
       "slots": []
     },
     "utter_howto_pay_college_fee": {
       "slots": []
     },
-    "utter_howto_install_software": {
+    "utter_greetings.goodmorning": {
+      "slots": []
+    },
+    "utter_ask_schedule": {
+      "slots": []
+    },
+    "utter_agent.my_friend": {
+      "slots": []
+    },
+    "utter_agent.occupation": {
+      "slots": []
+    },
+    "utter_greetings.how_are_you": {
+      "slots": []
+    },
+    "utter_user.wants_to_talk": {
+      "slots": []
+    },
+    "utter_ask_accommodation": {
+      "slots": []
+    },
+    "utter_user.waits": {
+      "slots": []
+    },
+    "utter_user.has_birthday": {
+      "slots": []
+    },
+    "utter_agent.residence": {
+      "slots": []
+    },
+    "utter_ask_guardme_howto_include_dependents": {
+      "slots": []
+    },
+    "utter_howto_login_systems": {
+      "slots": []
+    },
+    "utter_ask_security_fee": {
+      "slots": []
+    },
+    "utter_howto_get_enrollment": {
+      "slots": []
+    },
+    "utter_user.loves_agent": {
+      "slots": []
+    },
+    "utter_agent.answer_my_question": {
+      "slots": []
+    },
+    "utter_agent.real": {
+      "slots": []
+    },
+    "utter_howto_login_mylambton": {
+      "slots": []
+    },
+    "utter_agent.be_clever": {
+      "slots": []
+    },
+    "utter_agent.good": {
+      "slots": []
+    },
+    "utter_user.testing_agent": {
+      "slots": []
+    },
+    "utter_dialog.wrong": {
+      "slots": []
+    },
+    "utter_ask_byod": {
+      "slots": []
+    },
+    "utter_user.tired": {
+      "slots": []
+    },
+    "utter_user.looks_like": {
+      "slots": []
+    },
+    "utter_user.sad": {
+      "slots": []
+    },
+    "utter_agent.sure": {
+      "slots": []
+    },
+    "utter_user.going_to_bed": {
+      "slots": []
+    },
+    "utter_agent.right": {
+      "slots": []
+    },
+    "utter_ask_guardme_in_break_term": {
+      "slots": []
+    },
+    "utter_user.angry": {
+      "slots": []
+    },
+    "utter_user.excited": {
+      "slots": []
+    },
+    "utter_howto_login_mycareer": {
+      "slots": []
+    },
+    "utter_ask_spp_collegelist": {
+      "slots": []
+    },
+    "utter_howto_get_receipts": {
+      "slots": []
+    },
+    "utter_appraisal.thank_you": {
+      "slots": []
+    },
+    "utter_agent.talk_to_me": {
+      "slots": []
+    },
+    "utter_user.back": {
+      "slots": []
+    },
+    "utter_appraisal.good": {
+      "slots": []
+    },
+    "utter_emotions.ha_ha": {
       "slots": []
     },
     "action_weather": {
@@ -42,45 +297,122 @@
         "location"
       ]
     },
-    "utter_howto_submit_assignment": {
+    "utter_confirmation.yes": {
       "slots": []
     },
-    "utter_are_you_ready": {
+    "utter_agent.ready": {
+      "slots": []
+    },
+    "utter_agent.birth_date": {
+      "slots": []
+    },
+    "utter_agent.busy": {
+      "slots": []
+    },
+    "utter_ask_fee_for_coop": {
+      "slots": []
+    },
+    "utter_ask_fee_for_applied_project": {
+      "slots": []
+    },
+    "utter_agent.beautiful": {
+      "slots": []
+    },
+    "utter_dialog.hug": {
       "slots": []
     },
     "utter_howto_borrow_book_library": {
       "slots": []
     },
-    "utter_howto_get_trascripts": {
+    "utter_user.does_not_want_to_talk": {
       "slots": []
     },
-    "utter_are_you_there": {
+    "utter_greetings.nice_to_see_you": {
+      "slots": []
+    },
+    "utter_agent.origin": {
+      "slots": []
+    },
+    "utter_ask_webadvisor_use": {
+      "slots": []
+    },
+    "utter_agent.chatbot": {
+      "slots": []
+    },
+    "utter_dialog.i_do_not_care": {
+      "slots": []
+    },
+    "utter_howto_login_email": {
+      "slots": []
+    },
+    "utter_user.lonely": {
+      "slots": []
+    },
+    "utter_howto_submit_assignment": {
+      "slots": []
+    },
+    "utter_user.here": {
       "slots": []
     },
     "utter_howto_add_family_member_guardme": {
       "slots": []
     },
-    "utter_are_you_bot": {
+    "utter_agent.marry_user": {
+      "slots": []
+    },
+    "utter_ask_coop_advisor_role": {
+      "slots": []
+    },
+    "utter_howto_install_software": {
+      "slots": []
+    },
+    "utter_howto_login_moodle": {
+      "slots": []
+    },
+    "utter_user.needs_advice": {
+      "slots": []
+    },
+    "utter_user.bored": {
+      "slots": []
+    },
+    "utter_agent.can_you_help": {
+      "slots": []
+    },
+    "utter_user.good": {
+      "slots": []
+    },
+    "utter_confirmation.no": {
+      "slots": []
+    },
+    "utter_agent.acquaintance": {
+      "slots": []
+    },
+    "utter_howto_print": {
       "slots": []
     },
     "utter_howto_apply_coop_workpermit": {
       "slots": []
     },
-    "utter_you_are_funny": {
+    "utter_howto_check_grades": {
       "slots": []
     },
-    "utter_greet": {
+    "utter_appraisal.bad": {
+      "slots": []
+    },
+    "utter_agent.annoying": {
       "slots": []
     }
   },
   "rasa_core": "0.9.6",
   "max_histories": [
-    3,
-    5
+    5,
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.augmented_memoization.AugmentedMemoizationPolicy",
+    "rasa_core.policies.sklearn_policy.SklearnPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ]
 }

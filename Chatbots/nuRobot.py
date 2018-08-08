@@ -18,6 +18,9 @@ from rasa_core.channels.console import ConsoleInputChannel
 from rasa_core.events import SlotSet
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.policies.memoization import MemoizationPolicy
+from rasa_core.policies.augmented_memoization import AugmentedMemoizationPolicy
+from rasa_core.policies.sklearn_policy import SklearnPolicy
+from rasa_core.policies.fallback import FallbackPolicy
 
 logger = logging.getLogger(__name__)
 
@@ -55,8 +58,15 @@ def train_nlu(project='Lambton'):
     trainer.train(training_data)
     #model_directory = trainer.persist('../Chatbots/projects/'+project+'/models/nlu/', fixed_model_name="current")
     model_directory = trainer.persist('../Chatbots/projects/' + project + '/models/nlu/', fixed_model_name=model_name)
-
     return model_directory
+
+def model_visualize(project='Lambton'):
+
+    domain_file='../Chatbots/projects/'+project+'/domain.yml'
+    training_data_file="../Chatbots/projects/"+project+"/stories/stories.md"
+    agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()])
+    #agent = Agent(domain_file, policies=[MemoizationPolicy()])
+    agent.visualize(training_data_file, output_file="./Lambton.png", max_history=2)
 
 
 def train_dialogue(project='Lambton'):
@@ -64,11 +74,15 @@ def train_dialogue(project='Lambton'):
     domain_file='../Chatbots/projects/'+project+'/domain.yml'
     training_data_file="../Chatbots/projects/"+project+"/stories/stories.md"
     model_path="../Chatbots/projects/"+project+"/models/dialogue"
+    fallback = FallbackPolicy(fallback_action_name="utter_fallback",
+                          core_threshold=0.5,
+                          nlu_threshold=0.3)
 
-    agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=3), KerasPolicy()])
-
+    #agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=3), KerasPolicy(), fallback])
+    #agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=5), KerasPolicy(), fallback])
+    agent = Agent(domain_file, policies=[AugmentedMemoizationPolicy(max_history=5), SklearnPolicy(), fallback])
     training_data = agent.load_data(training_data_file)
-    
+    # ***  FASTER  ***
     agent.train(
             training_data,
             max_training_samples=300,
@@ -77,24 +91,32 @@ def train_dialogue(project='Lambton'):
             validation_split=0.2
     )
 
+    # *** Precise  ***
+    # agent.train(
+    #         training_data,
+    #         augmentation_factor = 50,
+    #         epochs = 500,
+    #         batch_size = 10,
+    #         validation_split = 0.2
+    # )
+
     agent.persist(model_path)
     return agent
 
 
 def train_online(project='Lambton'):
-    domain_file="/Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/"+project+"/domain.yml"
-    model_path="/Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/"+project+"/models/dialogue"
-    #training_data_file="projects/"+project+"/stories/stories.md"
-    training_data_file="/Users/leandroarruda/GitHub/nuRobot/Chatbots/projects/"+project+"/stories/stories.md"
+    domain_file='../Chatbots/projects/'+project+'/domain.yml'
+    model_path="../Chatbots/projects/"+project+"/models/dialogue"
+    training_data_file="../Chatbots/projects/"+project+"/stories/stories.md"
     interpreter = RasaNLUInterpreter("../Chatbots/projects/" + project + "/models/nlu/default/current")
-    agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()],interpreter=interpreter)
-
+    #agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()],interpreter=interpreter)
+    agent = Agent(domain_file, policies=[AugmentedMemoizationPolicy(), SklearnPolicy() ],interpreter=interpreter)
     agent.train_online(training_data_file,
                        input_channel=ConsoleInputChannel(),
-                       max_history=3,
-                       batch_size=33,
-                       epochs=300,
-                       max_training_samples=300)
+                       max_history=4, #max_history=2,
+                       batch_size=30,
+                       epochs=150,
+                       max_training_samples=400)
 
     agent.persist(model_path)
     return agent
@@ -142,7 +164,7 @@ if __name__ == '__main__':
 
     parser.add_argument(
             'task',
-            choices=["train-nlu", "train-dialogue", "train-online", "test-bot", "respond"],
+            choices=["train-nlu", "train-dialogue", "train-online", "test-bot", "respond", "visualize"],
             help="what the bot should do - e.g. run or train?")
 
     parser.add_argument(
@@ -176,6 +198,8 @@ if __name__ == '__main__':
         testbot(project)
     elif task == "train-online":
         train_online(project)
+    elif task == "visualize":
+        model_visualize(project)
     elif task == "respond":
         message = parser.parse_args().message
         if message:
