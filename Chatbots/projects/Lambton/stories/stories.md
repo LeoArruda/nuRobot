@@ -1,3 +1,8 @@
+## _giveme_ajoke
+* giveme_ajoke
+    - utter_giveme_ajoke
+    - export
+    
 ## _ask_guardme_coverage
 * ask_guardme_coverage
     - utter_ask_guardme_coverage
@@ -224,8 +229,19 @@
 ## _inform_name
 * inform_name[username=Bupandir]
     - slot{"username":"Bupandir"}
+    - action_nicetomeetyou
     - export
- 
+
+## _request_name
+* request_name
+    - action_name
+    - export
+
+## _ask_password
+* ask_password
+    - utter_ask_password
+    - export
+
 ## _inform_program
 * inform_program[program=CSAT]
     - slot{"program":"CSAT"}
@@ -250,6 +266,16 @@
 ## story 01
 * agent.acquaintance
     - utter_agent.acquaintance
+    - export
+
+## story 01.1
+* agent.name
+    - utter_agent.name
+    - export
+
+## story 01.2
+* agent.nicetomeetyou
+    - utter_agent.nicetomeetyou
     - export
 
 ## story 02

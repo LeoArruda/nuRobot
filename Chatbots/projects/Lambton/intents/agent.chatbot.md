@@ -10,6 +10,9 @@
 - you're an AI
 - are you artificially intelligent?
 - are you an AI?
+- are you intelligent?
+- are you smart?
 - you are a program
 - you are just a bot
 - you are a conversational AI
+- I think you are not human

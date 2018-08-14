@@ -6,9 +6,9 @@ from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
 from rasa_core.events import AllSlotsReset
 from rasa_core.events import Restarted
-from pymongo import MongoClient
-client = MongoClient('mongodb://localhost:27017')
-db = client['local']
+# from pymongo import MongoClient
+# client = MongoClient('mongodb://localhost:27017')
+# db = client['local']
 
 class ActionWeather(Action):
     def name(self):
@@ -36,25 +36,55 @@ class ActionWeather(Action):
         dispatcher.utter_message(response)
         return [SlotSet('location', loc)]
 
-
-class ActionAnswer(Action):
+class ActionName(Action):
     def name(self):
-        return 'action_answer'
+        return 'action_name'
 
     def run(self, dispatcher, tracker, domain):
-        # define mongoDB collection
-        knowledge = db.knowledgeBase
-        #Identify the last message intent
-        intent = tracker.latest_message.intent['name']
-        #find in Knowledge base collection the intent answer
-        # you have to treat errors like intent not found and others. I sugest a Try-Exception 
-        docs = knowledge.find_one({'intent':str(intent)})
-
-        response = """Initial intent is {}. The answer found is:{}""".format(intent, docs["text"])
+        user = tracker.get_slot('username')
+        
+        if user == None or user == "":
+            response = """You didn't say your name"""
+        else:
+            response = """Your name is {}\n""".format(user)
 
         dispatcher.utter_message(response)
-        #dispatcher.utter_attachment()
-        return []
+        return [SlotSet('username', user)]
+
+class ActionNiceToMeetYou(Action):
+    def name(self):
+        return 'action_nicetomeetyou'
+
+    def run(self, dispatcher, tracker, domain):
+        user = tracker.get_slot('username')
+
+        if user == None or user == "":
+            response = """Nice to meet you.   ;)\n"""
+        else:
+            response = """Nice to meet you {}.   ;)\n""".format(user) 
+
+        dispatcher.utter_message(response)
+        return [SlotSet('username', user)]
+
+
+# class ActionAnswer(Action):
+#     def name(self):
+#         return 'action_answer'
+
+#     def run(self, dispatcher, tracker, domain):
+#         # define mongoDB collection
+#         knowledge = db.knowledgeBase
+#         #Identify the last message intent
+#         intent = tracker.latest_message.intent['name']
+#         #find in Knowledge base collection the intent answer
+#         # you have to treat errors like intent not found and others. I sugest a Try-Exception 
+#         docs = knowledge.find_one({'intent':str(intent)})
+
+#         response = """Initial intent is {}. The answer found is:{}""".format(intent, docs["text"])
+
+#         dispatcher.utter_message(response)
+#         #dispatcher.utter_attachment()
+#         return []
 
 
 class ActionRestarted(Action):

@@ -1,7 +1,8 @@
 action_factory: null
 action_names:
 - action_weather
-- action_answer
+- action_name
+- action_nicetomeetyou
 - utter_ask_name
 - utter_action_weather
 - utter_ask_webadvisor_use
@@ -24,6 +25,7 @@ action_names:
 - utter_ask_guardme_howto_claim
 - utter_ask_guardme_in_break_term
 - utter_ask_guardme_outofcoverage
+- utter_ask_password
 - utter_ask_networking
 - utter_ask_student_services
 - utter_ask_schedule
@@ -75,6 +77,8 @@ action_names:
 - utter_agent.hungry
 - utter_agent.marry_user
 - utter_agent.my_friend
+- utter_agent.name
+- utter_agent.nicetomeetyou
 - utter_agent.occupation
 - utter_agent.origin
 - utter_agent.ready
@@ -140,7 +144,8 @@ action_names:
 - utter_confirmation.no
 actions:
 - actions.ActionWeather
-- actions.ActionAnswer
+- actions.ActionName
+- actions.ActionNiceToMeetYou
 - utter_ask_name
 - utter_action_weather
 - utter_ask_webadvisor_use
@@ -163,6 +168,7 @@ actions:
 - utter_ask_guardme_howto_claim
 - utter_ask_guardme_in_break_term
 - utter_ask_guardme_outofcoverage
+- utter_ask_password
 - utter_ask_networking
 - utter_ask_student_services
 - utter_ask_schedule
@@ -214,6 +220,8 @@ actions:
 - utter_agent.hungry
 - utter_agent.marry_user
 - utter_agent.my_friend
+- utter_agent.name
+- utter_agent.nicetomeetyou
 - utter_agent.occupation
 - utter_agent.origin
 - utter_agent.ready
@@ -302,6 +310,7 @@ intents:
 - ask_guardme_in_break_term
 - ask_guardme_outofcoverage
 - ask_networking
+- ask_password
 - ask_schedule
 - ask_scholarship_aid
 - ask_security_fee
@@ -315,7 +324,9 @@ intents:
 - inform_location
 - inform_name
 - inform_program
+- request_name
 - you_are_welcome
+- giveme_ajoke
 - howto_login_mycareer
 - howto_login_moodle
 - howto_login_mylambton
@@ -358,6 +369,8 @@ intents:
 - agent.hungry
 - agent.marry_user
 - agent.my_friend
+- agent.name
+- agent.nicetomeetyou
 - agent.occupation
 - agent.origin
 - agent.ready
@@ -432,6 +445,10 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_action_name:
+  - text: Okay
+  utter_action_nicetomeetyou:
+  - text: Okay
   utter_action_weather:
   - text: Okay
   utter_agent.acquaintance:
@@ -526,6 +543,12 @@ templates:
   - text: Friends? Absolutely.
   - text: Of course we're friends.
   - text: I always enjoy talking to you, friend.
+  utter_agent.name:
+  - text: My name is Jessie.
+  - text: Well, my name is Jessie. Thanks for asking
+  utter_agent.nicetomeetyou:
+  - text: Nice to meet you too!
+  - text: My pleasure
   utter_agent.occupation:
   - text: Right here.
   - text: This is my home base and my home office.
@@ -581,7 +604,7 @@ templates:
   - text: My pleasure.
   - text: Glad I could help.
   utter_ask_accommodation:
-  - text: I will correct it, i will learn from you (ask_accommodation)
+  - text: Sorry, the college don't have that
   utter_ask_applied_project:
   - text: "Applied Project is aimed at enriching student success\nby combining the\
       \ skills students have learned throughout their program.\nWithin the course,\
@@ -609,7 +632,9 @@ templates:
       • Students are expected to use their own device as an interactive tool during
       class time and online work.'
   utter_ask_capstone_instructor:
-  - text: I will learn from you (utter_ask_capstone_instructor)
+  - text: 'Please, check your instructors at:
+
+      https://ccd.cestarcollege.com/student/loginindex'
   utter_ask_college_events:
   - text: "The college constantly organizes events and festivals like:\n  •  Employer\
       \ Showcases / Expo’s \n  • Co-op Fair (every term)\n  • External fairs\n   \
@@ -651,7 +676,13 @@ templates:
       \  • No co-payment\n  • Hospital fees, X-rays, lab testing\n  • Doctor and clinic\
       \ fees, prescriptions"
   utter_ask_guardme_howto_claim:
-  - text: Ask guardme how to claim
+  - text: 'To do it, you have to go to:
+
+      https://www.guard.me/cestarcollege
+
+      then go to ''Submit Claim''
+
+      and follow the instructions'
   utter_ask_guardme_howto_include_dependents:
   - text: 'You can purchase coverage for your
 
@@ -687,20 +718,40 @@ templates:
   utter_ask_name:
   - text: What's your name?
   - text: Please, Tell me your name?
+  - text: Whats your name?
+  - text: What's your name?
+  - text: What's your name again?
+  - text: What was your name again?
+  - text: How may I address you?
+  - text: May I have your name?
+  - text: Could I ask your name?
+  - text: May I know your good name please?
   utter_ask_networking:
   - text: "External Networking opportunity Examples:\na. Eventbrite: https://www.eventbrite.ca/d/canadatoronto/networking/\
       \ \nb. Hip Hause: http://thehiphaus.com/ \nc. Meetup.com Networking App: https://www.meetup.com/topics/professionalnetworking/ca/on/toronto/\
       \  \nd. 10 Thousand Coffees: https://www.tenthousandcoffees.com/"
+  utter_ask_password:
+  - text: Please, contact Ash in our front desk to receive more information
   utter_ask_program:
   - text: What's your program?
   - text: Can you please tell me your program?
   - text: Which program are you?
   utter_ask_schedule:
-  - text: I will learn from you (utter_ask_schedule)
+  - text: "You can find your schedule at: \nhttps://ccd.cestarcollege.com/student/loginindex"
   utter_ask_scholarship_aid:
-  - text: I will learn from you (utter_ask_scholarship_aid)
+  - text: 'Through the generosity of government, individuals and organizations in
+      the community,
+
+      Lambton College is able to offer assistance in the form of non-repayable bursaries.
+
+      These bursaries are intended to assist students who are experiencing financial
+      difficulty
+
+      for more information, please access:
+
+      https://www.mylambton.ca/Financial_Aid/AwardDetails.aspx?id=2147492386'
   utter_ask_security_fee:
-  - text: I will learn from you (utter_ask_security_fee)
+  - text: Please, contact our Student Services Advisor to receive more information
   utter_ask_spp_collegelist:
   - text: 'Click on this link to check:
 
@@ -727,7 +778,17 @@ templates:
       \ – under Co-op)\nYou also request authorization to go for applied project.\n\
       But you have to contact your coop advisor."
   utter_ask_webadvisor_use:
-  - text: I will learn from you (utter_ask_webadvisor_use)
+  - text: 'Students can use Web Advisor:
+
+      • to view their financial account and balance
+
+      • to make a payment to their student account
+
+      • to view and download tax forms (T2202A)
+
+      • to view official grades and transcript
+
+      • to review their Course Requirements for Graduation'
   utter_ask_whatis_coop:
   - text: "Co-operative Education (Co-op) program\nlets you test drive your career\
       \ options\nin a highly supportive environment, while\n gaining practical skills\
@@ -927,7 +988,8 @@ templates:
       www.mylambton.ca\n If you want to know your GPA for each term,\n click on the\
       \ GPA Calculator.\n The GPA calculation is based on\nhttps://www.mylambton.ca/Policies/Policy.aspx?id=2147498061"
   utter_howto_get_enrollment:
-  - text: I will learn from you (howto_get_enrollment)
+  - text: "Log in to mylambton.ca with your credentials.\n On the left, you can find\
+      \ enrollment letter. "
   utter_howto_get_receipts:
   - text: 'To get your receipts, Login to your account
 
@@ -956,15 +1018,28 @@ templates:
 
       Please contact your faculty  or front desk.'
   utter_howto_login_email:
-  - text: I will learn from you (utter_howto_login_email)
+  - text: "Easy peasy lemon squeezy, go to: \nemail.mylambton.ca\nLog in with your\
+      \ username and permanent password"
   utter_howto_login_moodle:
-  - text: I will learn from you (utter_howto_login_moodle)
+  - text: "It's a simple task, to login to the Moodle, go to: \nhttps://moodle.cestarcollege.com/moodle/\n\
+      Log in with your username and password\nEasy, isn't it?"
   utter_howto_login_mycareer:
-  - text: I will learn from you (utter_howto_login_mycareer)
+  - text: 'Very simple, go to:
+
+      https://mycareer.lambtoncollege.ca/student/login.htm
+
+      Log in with your username and permanent password'
   utter_howto_login_mylambton:
-  - text: I will learn from you (utter_howto_login_mylambton)
+  - text: "Very easy, go to: \nmylambton.ca\nLog in with your username and permanent\
+      \ password"
   utter_howto_login_systems:
-  - text: I learn from you (howto_login_systems)
+  - text: '1.Go through the Lambton Desktop,
+
+      their you can find the student login.
+
+      2.Provide your credentials.
+
+      If you do it right, voila! you''re in.'
   utter_howto_pay_college_fee:
   - text: "You can pay in many ways:\n  1.International transfer\n  2.eTransfer\n\
       \  3.Check\nLogin to your account\nhttps://www.mylambton.ca/\nSelect your term\
@@ -975,7 +1050,23 @@ templates:
 
       https://moodle.cestarcollege.com/moodle/sitedocs/faq/How_to_Print_from_the_Cestar_College_Wireless_Network.pdf'
   utter_howto_select_group:
-  - text: I will learn from you (utter_howto_select_group)
+  - text: 'Before every semester, on a particular day
+
+      you can choose your schedule from your program''s groups in Cestar Database
+
+      •  Go to the Cestar Database
+
+      • Go to the “Select Group” Tab at the top
+
+      • Review the Group Calendars for each option
+
+      • Make a selection and click “Confirm” to secure your Group
+
+      • After completing Steps 1-4, you can access and view your schedule in the “Academic
+      Calendar” tab
+
+      (you will also be able to view your courses on the Database profile page and
+      on Moodle)'
   utter_howto_submit_assignment:
   - text: 'Login to the Moodle
 
