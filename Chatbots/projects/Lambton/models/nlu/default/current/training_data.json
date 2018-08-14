@@ -3182,6 +3182,22 @@
         "text": "We're ready, aren't we?"
       },
       {
+        "intent": "agent.nicetomeetyou",
+        "text": "Nice to meet you"
+      },
+      {
+        "intent": "agent.nicetomeetyou",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "agent.nicetomeetyou",
+        "text": "nice to meet you Jessie"
+      },
+      {
+        "intent": "agent.nicetomeetyou",
+        "text": "Nice to meet you Jessie"
+      },
+      {
         "intent": "confirmation.yes",
         "text": "yeah exactly"
       },
@@ -3352,6 +3368,50 @@
       {
         "intent": "greetings.nice_to_see_you",
         "text": "Great seeing u"
+      },
+      {
+        "intent": "agent.name",
+        "text": "whats your name?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "What's your name?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "What's your name again?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "What was your name again?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "How may I address you?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "may I have your name?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "How do they call you?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "How is one to call you?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "Could I ask your name?"
+      },
+      {
+        "intent": "agent.name",
+        "text": "May I know your good name please"
+      },
+      {
+        "intent": "agent.name",
+        "text": "To whom am I speaking?"
       },
       {
         "intent": "agent.talk_to_me",
@@ -3714,12 +3774,52 @@
         "text": "u took it in a wrong way"
       },
       {
-        "intent": "are_you_real",
-        "text": "Are you real?"
+        "intent": "ask_password",
+        "text": "I don't know my Moodle password"
       },
       {
-        "intent": "are_you_real",
-        "text": "Are you alive?"
+        "intent": "ask_password",
+        "text": "I don't know my myLambton password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I don't know my permanent password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I want to reset my password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "My Moodle password is not working"
+      },
+      {
+        "intent": "ask_password",
+        "text": "How can I reset my password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "Is it possible to reset myLambton password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "Can I reset my password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I want to reset myLambton password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I want to reset Moodle password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I forgot my password"
+      },
+      {
+        "intent": "ask_password",
+        "text": "I forgot my permanent password"
       },
       {
         "intent": "ask_accommodation",
@@ -3810,6 +3910,10 @@
         "text": "Does the college hosts any event?"
       },
       {
+        "intent": "ask_college_events",
+        "text": "The college hosts any event?"
+      },
+      {
         "intent": "ask_coop_advisor",
         "text": "Which is the coop advisor of particular course?"
       },
@@ -3875,7 +3979,7 @@
       },
       {
         "intent": "ask_coop_eligibility",
-        "text": "Who is eligible for co-op?"
+        "text": "Who is eligible for coop?"
       },
       {
         "intent": "ask_coop_eligibility",
@@ -3886,12 +3990,20 @@
         "text": "How can I know that am I eligible for coop or not?"
       },
       {
-        "intent": "ask_details_of_guardme",
-        "text": "Are medicine charges covered by Guard me insurance?"
+        "intent": "ask_coop_eligibility",
+        "text": "I want to see if I'm eligile to coop"
       },
       {
-        "intent": "ask_details_of_guardme",
-        "text": "Are medicine charges covered by my insurance?"
+        "intent": "ask_coop_eligibility",
+        "text": "Am I eligile to coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "When I'll became eligile to coop?"
+      },
+      {
+        "intent": "ask_coop_eligibility",
+        "text": "When a student is eligile to coop?"
       },
       {
         "intent": "ask_details_of_guardme",
@@ -3907,18 +4019,6 @@
       },
       {
         "intent": "ask_details_of_guardme",
-        "text": "What things guard me covers?"
-      },
-      {
-        "intent": "ask_details_of_guardme",
-        "text": "Is there any need pay a doctor if I have guard me?"
-      },
-      {
-        "intent": "ask_details_of_guardme",
-        "text": "What does my guard me insurance cover and do I need to make an account for each term?"
-      },
-      {
-        "intent": "ask_details_of_guardme",
         "text": "Where is the nearest medical clinic?"
       },
       {
@@ -3931,11 +4031,15 @@
       },
       {
         "intent": "ask_fee_for_applied_project",
-        "text": "how much I have to pay for applied project?"
+        "text": "Do I have fees to pay for applied project?"
       },
       {
         "intent": "ask_fee_for_applied_project",
-        "text": "Do I have fees to pay for applied project?"
+        "text": "Do I have to pay for applied project?"
+      },
+      {
+        "intent": "ask_fee_for_applied_project",
+        "text": "What are the fees for applied project?"
       },
       {
         "intent": "ask_fee_for_coop",
@@ -3952,6 +4056,30 @@
       {
         "intent": "ask_fee_for_coop",
         "text": "Is their any fees to pay to the college in coop semester?"
+      },
+      {
+        "intent": "ask_fee_for_coop",
+        "text": "I want to check fee for coop"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What things guard me covers?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Is there any need pay a doctor if I have guard me?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "What does my guard me insurance cover and do I need to make an account for each term?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Are medicine charges covered by guard-me insurance?"
+      },
+      {
+        "intent": "ask_guardme_coverage",
+        "text": "Are medicine charges covered by my insurance?"
       },
       {
         "intent": "ask_guardme_coverage",
@@ -3986,6 +4114,18 @@
         "text": "How can I claim a insurance reimbursement?"
       },
       {
+        "intent": "ask_guardme_howto_claim",
+        "text": "I want to claim Guard.me"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "I want to claim my insurance"
+      },
+      {
+        "intent": "ask_guardme_howto_claim",
+        "text": "I want a reimbursement"
+      },
+      {
         "intent": "ask_guardme_howto_include_dependents",
         "text": "How can I cover my guardian insurance through guard-me?"
       },
@@ -4010,6 +4150,10 @@
         "text": "How can I include dependents in guard-me?"
       },
       {
+        "intent": "ask_guardme_howto_include_dependents",
+        "text": "I want to know how to I include dependents in my insurance"
+      },
+      {
         "intent": "ask_guardme_in_break_term",
         "text": "Does my health insurance cover the break period?"
       },
@@ -4022,20 +4166,36 @@
         "text": "Why does not health insurance cover vacations?"
       },
       {
-        "intent": "ask_guardme_outofcoverage",
-        "text": "What is not included in guard-me?"
+        "intent": "ask_guardme_in_break_term",
+        "text": "I want to know why I need to pay Guard.me during the break"
+      },
+      {
+        "intent": "ask_guardme_in_break_term",
+        "text": "I want to know if I need to purchase Guead.me during break period"
       },
       {
         "intent": "ask_guardme_outofcoverage",
-        "text": "What is not covered by guard-me?"
+        "text": "What is not included in Guard.me?"
       },
       {
         "intent": "ask_guardme_outofcoverage",
-        "text": "What is out of guardme coverage?"
+        "text": "What is not covered by Guard.me?"
       },
       {
         "intent": "ask_guardme_outofcoverage",
-        "text": "What is out of guardme coverage?"
+        "text": "What is out of Guard.me coverage?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "Whats out of Guard.me coverage?"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "I want to see what is out of Guard.me"
+      },
+      {
+        "intent": "ask_guardme_outofcoverage",
+        "text": "I want to see what is out of my insurance plan"
       },
       {
         "intent": "ask_networking",
@@ -4062,6 +4222,10 @@
         "text": "Is meetup.com a good networking?"
       },
       {
+        "intent": "ask_networking",
+        "text": "I want to know how to do networking"
+      },
+      {
         "intent": "ask_schedule",
         "text": "Reasons of getting schedule changed for may intake computer students?"
       },
@@ -4078,6 +4242,22 @@
         "text": "How to get our schedule?"
       },
       {
+        "intent": "ask_schedule",
+        "text": "I want to check my schedule"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Check my schedule, please"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "Please check my schedule"
+      },
+      {
+        "intent": "ask_schedule",
+        "text": "I want to check my class schedule"
+      },
+      {
         "intent": "ask_scholarship_aid",
         "text": "Is there a facilitated payment plan for international students?"
       },
@@ -4090,6 +4270,10 @@
         "text": "Are there any scholarships available for international students?"
       },
       {
+        "intent": "ask_scholarship_aid",
+        "text": "I want to check scholarship"
+      },
+      {
         "intent": "ask_security_fee",
         "text": "How much of amount I have to pay for security?"
       },
@@ -4100,6 +4284,14 @@
       {
         "intent": "ask_security_fee",
         "text": "How can I get my security fee back?"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "I want to know why security fee"
+      },
+      {
+        "intent": "ask_security_fee",
+        "text": "I want to know why I have to pay security fee"
       },
       {
         "intent": "ask_spp_collegelist",
@@ -4454,6 +4646,14 @@
         "text": "What's the purpose of webAdvisor?"
       },
       {
+        "intent": "ask_webadvisor_use",
+        "text": "Why do I need webAdvisor"
+      },
+      {
+        "intent": "ask_webadvisor_use",
+        "text": "Whats the meaning of webAdvisor"
+      },
+      {
         "intent": "ask_whatis_coop",
         "text": "What is coop?"
       },
@@ -4464,6 +4664,22 @@
       {
         "intent": "ask_whatis_coop",
         "text": "What's the purpose of coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "Why I need a coop?"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "I want to leran about coop"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "tell me about coop"
+      },
+      {
+        "intent": "ask_whatis_coop",
+        "text": "Why coop?"
       },
       {
         "intent": "check_program_schedule",
@@ -4590,6 +4806,30 @@
         "text": "What do you mean?"
       },
       {
+        "intent": "giveme_ajoke",
+        "text": "Tell me a joke"
+      },
+      {
+        "intent": "giveme_ajoke",
+        "text": "I want a joke"
+      },
+      {
+        "intent": "giveme_ajoke",
+        "text": "give me a joke"
+      },
+      {
+        "intent": "giveme_ajoke",
+        "text": "Can you tell me a joke?"
+      },
+      {
+        "intent": "giveme_ajoke",
+        "text": "Can you say it a joke to me?"
+      },
+      {
+        "intent": "giveme_ajoke",
+        "text": "I want to hear a joke"
+      },
+      {
         "intent": "howto_add_family_member_guardme",
         "text": "How to add family member to Guard.me health insurance?"
       },
@@ -4600,6 +4840,14 @@
       {
         "intent": "howto_add_family_member_guardme",
         "text": "How to include dependents in my insurance?"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "I want to include dependents on Guard.me"
+      },
+      {
+        "intent": "howto_add_family_member_guardme",
+        "text": "I want to put my dependent on Guard.me"
       },
       {
         "intent": "howto_apply_coop_workpermit",
@@ -4662,6 +4910,22 @@
         "text": "Where can I see the bus schedule?"
       },
       {
+        "intent": "howto_check_bus_schedule",
+        "text": "I want to see the bus schedule"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Show me the bus schedule"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "The bus schedule"
+      },
+      {
+        "intent": "howto_check_bus_schedule",
+        "text": "Bus schedule"
+      },
+      {
         "intent": "howto_check_grades",
         "text": "How can I check my grades?"
       },
@@ -4676,6 +4940,22 @@
       {
         "intent": "howto_check_grades",
         "text": "Where are my final grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "I want to check my grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "check my grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "I want to see my grades"
+      },
+      {
+        "intent": "howto_check_grades",
+        "text": "where are my grades?"
       },
       {
         "intent": "howto_get_enrollment",
@@ -4700,6 +4980,14 @@
       {
         "intent": "howto_get_enrollment",
         "text": "I need my enrollment letter, what I need to do?"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "I want to get my enrollment"
+      },
+      {
+        "intent": "howto_get_enrollment",
+        "text": "I want my enrollment letter"
       },
       {
         "intent": "howto_get_receipts",
@@ -4728,6 +5016,18 @@
       {
         "intent": "howto_get_receipts",
         "text": "After payment, what I have to do to get my receipts?"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "I want to get my receipts"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "I want my receipts"
+      },
+      {
+        "intent": "howto_get_receipts",
+        "text": "get receipts"
       },
       {
         "intent": "howto_get_trascripts",
@@ -4766,6 +5066,14 @@
         "text": "How will I know when my graduation documents are ready for pick up and where do I get them?"
       },
       {
+        "intent": "howto_get_trascripts",
+        "text": "I want to get my transcripts"
+      },
+      {
+        "intent": "howto_get_trascripts",
+        "text": "I want my transcripts"
+      },
+      {
         "intent": "howto_install_software",
         "text": "How to install any software in college system?"
       },
@@ -4776,6 +5084,22 @@
       {
         "intent": "howto_install_software",
         "text": "How can I install software on my computer?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "Can I install software in college computers?"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "I want to install some softwares in college"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "I want to install a software in college"
+      },
+      {
+        "intent": "howto_install_software",
+        "text": "I want to install a software"
       },
       {
         "intent": "howto_login_email",
@@ -4790,6 +5114,22 @@
         "text": "How can I access my email?"
       },
       {
+        "intent": "howto_login_email",
+        "text": "I want to check my email"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "I want to log into my email"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "I want to see my email"
+      },
+      {
+        "intent": "howto_login_email",
+        "text": "Lambton email"
+      },
+      {
         "intent": "howto_login_moodle",
         "text": "How can I login to Moodle website?"
       },
@@ -4800,6 +5140,18 @@
       {
         "intent": "howto_login_moodle",
         "text": "How to access Moodle?"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "I want to access Moodle"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "I want to log into Moodle"
+      },
+      {
+        "intent": "howto_login_moodle",
+        "text": "access Moodle"
       },
       {
         "intent": "howto_login_mycareer",
@@ -4818,6 +5170,14 @@
         "text": "How can I log into myCareer?"
       },
       {
+        "intent": "howto_login_mycareer",
+        "text": "I want to access myCarrer"
+      },
+      {
+        "intent": "howto_login_mycareer",
+        "text": "Login into myCareer"
+      },
+      {
         "intent": "howto_login_mylambton",
         "text": "How can I login to myLambton website?"
       },
@@ -4830,8 +5190,20 @@
         "text": "How to access myLambton?"
       },
       {
+        "intent": "howto_login_mylambton",
+        "text": "Access myLambton"
+      },
+      {
         "intent": "howto_login_systems",
         "text": "How to log into the systems?"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "I want to login into the system"
+      },
+      {
+        "intent": "howto_login_systems",
+        "text": "I want to login"
       },
       {
         "intent": "howto_login_systems",
@@ -4848,6 +5220,14 @@
       {
         "intent": "howto_pay_college_fee",
         "text": "How can i pay my fees?"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "I want to pay fees"
+      },
+      {
+        "intent": "howto_pay_college_fee",
+        "text": "I want to pay my fees"
       },
       {
         "intent": "howto_pay_college_fee",
@@ -4931,6 +5311,18 @@
       },
       {
         "intent": "howto_print",
+        "text": "I need to print"
+      },
+      {
+        "intent": "howto_print",
+        "text": "I want to use the printer"
+      },
+      {
+        "intent": "howto_print",
+        "text": "how can I print?"
+      },
+      {
+        "intent": "howto_print",
         "text": "How can I activate my student card to be used for printing?"
       },
       {
@@ -4966,12 +5358,36 @@
         "text": "How can I select my group in Cestar database"
       },
       {
+        "intent": "howto_select_group",
+        "text": "I cannot find how to select a group"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "I want to select my group"
+      },
+      {
+        "intent": "howto_select_group",
+        "text": "Help me selecting my group?"
+      },
+      {
         "intent": "howto_submit_assignment",
         "text": "How can I submit the assignment?"
       },
       {
         "intent": "howto_submit_assignment",
         "text": "I missed my assignment, what can I do?"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "I need to submit my assignment, how can I do?"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "I want to submit my assignment"
+      },
+      {
+        "intent": "howto_submit_assignment",
+        "text": "I dont know how to submit an assignment"
       },
       {
         "intent": "inform_location",
@@ -5010,6 +5426,78 @@
         "text": "Oh, sorry, in Italy"
       },
       {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Mississauga",
+            "entity": "location"
+          }
+        ],
+        "text": "I'm in Mississauga"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Now I'm New York"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Montreal",
+            "entity": "location"
+          }
+        ],
+        "text": "I'm visiting Montreal"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "My location is Paris"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Miami",
+            "entity": "location"
+          }
+        ],
+        "text": "I'm located in Miami"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Orlando",
+            "entity": "location"
+          }
+        ],
+        "text": "I'm visiting tomorrow Orlando"
+      },
+      {
         "intent": "inform_name",
         "entities": [
           {
@@ -5044,6 +5532,30 @@
           }
         ],
         "text": "My name is Marie"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Sophia",
+            "entity": "username"
+          }
+        ],
+        "text": "my name is Sophia"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "bruce",
+            "entity": "username"
+          }
+        ],
+        "text": "my name is bruce"
       },
       {
         "intent": "inform_name",
@@ -5133,6 +5645,30 @@
         "intent": "inform_name",
         "entities": [
           {
+            "start": 8,
+            "end": 14,
+            "value": "marcos",
+            "entity": "username"
+          }
+        ],
+        "text": "call me marcos"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "nicholas",
+            "entity": "username"
+          }
+        ],
+        "text": "call me nicholas"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
             "start": 16,
             "end": 23,
             "value": "Roberta",
@@ -5164,6 +5700,30 @@
           }
         ],
         "text": "You can call me Paris"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Valdir",
+            "entity": "username"
+          }
+        ],
+        "text": "you can call me Valdir"
+      },
+      {
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "manjot",
+            "entity": "username"
+          }
+        ],
+        "text": "you can call me manjot"
       },
       {
         "intent": "inform_name",
@@ -5226,6 +5786,46 @@
         "text": "Ryan"
       },
       {
+        "intent": "request_name",
+        "text": "Do you know my name?"
+      },
+      {
+        "intent": "request_name",
+        "text": "Say my name"
+      },
+      {
+        "intent": "request_name",
+        "text": "Do you remember my name?"
+      },
+      {
+        "intent": "request_name",
+        "text": "Can you remember my name?"
+      },
+      {
+        "intent": "request_name",
+        "text": "What's my name?"
+      },
+      {
+        "intent": "request_name",
+        "text": "What is my name"
+      },
+      {
+        "intent": "request_name",
+        "text": "what is my name"
+      },
+      {
+        "intent": "request_name",
+        "text": "do you know my name"
+      },
+      {
+        "intent": "request_name",
+        "text": "Do you know my name?"
+      },
+      {
+        "intent": "request_name",
+        "text": "whats my name?"
+      },
+      {
         "intent": "inform_program",
         "entities": [
           {
@@ -5242,12 +5842,12 @@
         "entities": [
           {
             "start": 14,
-            "end": 42,
-            "value": "Cloud Computing for Big Data",
+            "end": 18,
+            "value": "CPMT",
             "entity": "program"
           }
         ],
-        "text": "My program is Cloud Computing for Big Data"
+        "text": "My program is CPMT"
       },
       {
         "intent": "inform_program",
@@ -5272,6 +5872,30 @@
           }
         ],
         "text": "I'm taking MADT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "MMPT",
+            "entity": "program"
+          }
+        ],
+        "text": "I'm enrolled into MMPT"
+      },
+      {
+        "intent": "inform_program",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "EMBT",
+            "entity": "program"
+          }
+        ],
+        "text": "My major is EMBT"
       },
       {
         "intent": "agent.age",
@@ -7322,6 +7946,10 @@
         "text": "your native?"
       },
       {
+        "intent": "agent.origin",
+        "text": "whats your origin?"
+      },
+      {
         "intent": "dialog.i_do_not_care",
         "text": "I don't care"
       },
@@ -9158,6 +9786,10 @@
         "text": "are you real?"
       },
       {
+        "intent": "agent.real",
+        "text": "are you human?"
+      },
+      {
         "intent": "user.wants_to_see_agent_again",
         "text": "I'd like to see you again"
       },
@@ -9247,6 +9879,14 @@
       },
       {
         "intent": "agent.chatbot",
+        "text": "are you intelligent?"
+      },
+      {
+        "intent": "agent.chatbot",
+        "text": "are you smart?"
+      },
+      {
+        "intent": "agent.chatbot",
         "text": "you are a program"
       },
       {
@@ -9256,6 +9896,10 @@
       {
         "intent": "agent.chatbot",
         "text": "you are a conversational AI"
+      },
+      {
+        "intent": "agent.chatbot",
+        "text": "I think you are not human"
       },
       {
         "intent": "dialog.hold_on",
@@ -9544,6 +10188,16 @@
           "Excel",
           "Word",
           "Powerpoint"
+        ]
+      },
+      {
+        "value": "dependent",
+        "synonyms": [
+          "wife",
+          "husband",
+          "family",
+          "son",
+          "daughter"
         ]
       },
       {

@@ -76,29 +76,29 @@ def train_dialogue(project='Lambton'):
     model_path="../Chatbots/projects/"+project+"/models/dialogue"
     fallback = FallbackPolicy(fallback_action_name="utter_fallback",
                           core_threshold=0.5,
-                          nlu_threshold=0.3)
+                          nlu_threshold=0.5) #0.3
 
     #agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=3), KerasPolicy(), fallback])
     #agent = Agent(domain_file, policies=[MemoizationPolicy(max_history=5), KerasPolicy(), fallback])
-    agent = Agent(domain_file, policies=[AugmentedMemoizationPolicy(max_history=5), SklearnPolicy(), fallback])
+    agent = Agent(domain_file, policies=[AugmentedMemoizationPolicy(max_history=7), SklearnPolicy(), fallback])
     training_data = agent.load_data(training_data_file)
     # ***  FASTER  ***
-    agent.train(
-            training_data,
-            max_training_samples=300,
-            epochs=300,
-            batch_size=33,
-            validation_split=0.2
-    )
-
-    # *** Precise  ***
     # agent.train(
     #         training_data,
-    #         augmentation_factor = 50,
-    #         epochs = 500,
-    #         batch_size = 10,
-    #         validation_split = 0.2
+    #         #max_training_samples=500,
+    #         epochs=300,
+    #         batch_size=33,
+    #         validation_split=0.2
     # )
+
+    # *** Precise  ***
+    agent.train(
+            training_data,
+            augmentation_factor = 50,
+            epochs = 500,
+            batch_size = 10,
+            validation_split = 0.2
+    )
 
     agent.persist(model_path)
     return agent

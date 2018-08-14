@@ -45,10 +45,10 @@ RUN pip install -r ./requirements.txt
 #Installing Rasa NLU backend (MITIE + sklearn)
 WORKDIR /app/mitie
 RUN pip install rasa_nlu[spacy]
-RUN python -m spacy download en_core_web_md
-RUN python -m spacy link en_core_web_md en
-RUN python -m spacy download es_core_news_md
-RUN python -m spacy link es_core_news_md es
+#RUN python -m spacy download en_core_web_md
+#RUN python -m spacy link en_core_web_md en
+#RUN python -m spacy download es_core_news_md
+#RUN python -m spacy link es_core_news_md es
 RUN pip install git+https://github.com/tmbo/MITIE.git
 
 # Copying bot files

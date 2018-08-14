@@ -12,3 +12,4 @@
 - you are a real person
 - you are not real
 - are you real?
+- are you human?
